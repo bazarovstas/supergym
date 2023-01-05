@@ -13,6 +13,12 @@ $color-transparent:                 rgba(255, 255, 255, 0);
 $color-neon-blue:                   #2c39f2;
 $color-torch-red:                   #ff1553;
 
+// Transparent
+// ---------------------------------
+
+// $transparent-black-0-5:             rgba(0, 43, 102, 0.5);
+// $transparent-black-0-25:            rgba(0, 0, 0, 0.25);
+
 // Gradient
 
 $black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
@@ -45,11 +51,16 @@ $trans-600:                         0.6s $tf-default;
 
 $vp-320:                            320px;
 $vp-375:                            375px;
+$vp-767:                            767px;
 $vp-768:                            768px;
+$vp-1023:                           1023px;
 $vp-1024:                           1024px;
+$vp-1199:                           1199px;
+$vp-1200:                           1200px;
 $vp-1280:                           1280px;
 $vp-1440:                           1440px;
 $vp-1920:                           1920px;
+// $offset-side:                       1160px;
 
 // Retina
 // ---------------------------------

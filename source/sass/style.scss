@@ -8,18 +8,41 @@
 // Global
 // ---------------------------------
 
+// @import "blocks/header";
+// @import "blocks/logo-header";
+// @import "blocks/main-nav";
+// @import "blocks/nav-toggle";
+// @import "blocks/main";
+// @import "blocks/promo";
+// @import "blocks/advantages";
+// @import "blocks/cruises";
+// @import "blocks/booking";
+// @import "blocks/booking-form";
+// @import "blocks/contacts";
+// @import "blocks/map";
+// @import "blocks/main-footer";
+// @import "blocks/logo-footer";
+// @import "blocks/footer-nav";
+// @import "blocks/social";
+
+// // Other
+// // ---------------------------------
+
+// @import "blocks/btn";
+// @import "blocks/checkbox";
+// @import "blocks/sitemap";
+
+
 @import "variables";
 @import "mixins";
 @import "global/fonts";
 @import "global/reboot";
 @import "global/utils";
-@import "global/container";
 
 // Blocks
 // ---------------------------------
 
 @import "blocks/btn";
-@import "blocks/modal";
 
 // ---------------------------------
 

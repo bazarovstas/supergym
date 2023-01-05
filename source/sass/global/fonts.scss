@@ -10,12 +10,41 @@
 // }
 
 @font-face {
+  font-family: $ff-alumni;
   font-style: normal;
-  font-weight: 400;
-  font-family: "";
-
+  font-weight: 600;
   font-display: swap;
   src:
-    url("../fonts/.woff2") format("woff2"),
-    url("../fonts/.woff") format("woff");
+    url("../fonts/alumnisans-semibold.woff2") format("woff2"),
+    url("../fonts/alumnisans-semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: $ff-roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url("../fonts/robotocondensed-light.woff2") format("woff2"),
+    url("../fonts/robotocondensed-light.woff") format("woff");
+}
+
+@font-face {
+  font-family: $ff-roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("../fonts/robotocondensed-regular.woff2") format("woff2"),
+    url("../fonts/robotocondensed-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: $ff-roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url("../fonts/robotocondensed-bold.woff2") format("woff2"),
+    url("../fonts/robotocondensed-bold.woff") format("woff");
 }

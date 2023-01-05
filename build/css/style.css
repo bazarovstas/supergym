@@ -385,11 +385,35 @@ template {
 }
 
 @font-face {
+  font-family: "Alumni Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/alumnisans-semibold.woff2") format("woff2"), url("../fonts/alumnisans-semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/robotocondensed-light.woff2") format("woff2"), url("../fonts/robotocondensed-light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-family: "";
   font-display: swap;
-  src: url("../fonts/.woff2") format("woff2"), url("../fonts/.woff") format("woff");
+  src: url("../fonts/robotocondensed-regular.woff2") format("woff2"), url("../fonts/robotocondensed-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/robotocondensed-bold.woff2") format("woff2"), url("../fonts/robotocondensed-bold.woff") format("woff");
 }
 
 *,
@@ -397,6 +421,10 @@ template {
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+:root {
+  --side-offset: calc(50vw - 580px - var(--scrollbarWidth, 0px) * 0.5);
 }
 
 html,
@@ -409,9 +437,9 @@ body {
 html {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: "Placeholder", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -666,6 +694,18 @@ button,
     }
   }
 */
+
+@media (max-width: 1250px) {
+  :root {
+    --side-offset: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --side-offset: 15px;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   html,

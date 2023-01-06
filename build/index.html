@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SUPERGYM - доступный фитнес в Омске.">
     <title>SUPERGYM</title>
     <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
@@ -49,6 +49,7 @@
           </div>
         </section>
 
+
         <section class="gym">
           <div class="gym__container">
             <h2 class="gym__title  heading  heading--h2">Тренажерный зал</h2>
@@ -78,8 +79,8 @@
           </video>
 
           <!-- <iframe class="gym__video" width="560" height="315" src="https://www.youtube.com/embed/9TZXsZItgdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-
         </section>
+
 
         <section class="membership">
           <h2 class="membership__title  heading  heading--h2">Абонементы</h2>
@@ -116,10 +117,12 @@
           </div>
         </section>
 
+
         <section class="promo">
           <div class="promo__container">
             <div class="promo__wrapper">
               <h2 class="promo__title  heading  heading--h2">Super games</h2>
+
               <dl class="promo__list">
                 <dt class="promo__item">Дата</dt>
                 <dd class="promo__item  promo__item--bold">7</dd>
@@ -146,9 +149,11 @@
           </div>
         </section>
 
+
         <section class="coaches">
 
         </section>
+
 
         <section class="advantages">
           <h2 class="advantages__title  heading  heading--h2">Наши преимущества</h2>
@@ -206,8 +211,10 @@
           </ul>
         </section>
 
+
         <section class="promotion">
           <h2 class="promotion__title  heading  heading--h2">Акции</h2>
+
           <div class="promotion__container">
             <div class="promotion__wrapper">
               <span class="promotion__period">Год</span>
@@ -240,9 +247,11 @@
           </div>
         </section>
 
+
         <section class="reviews">
 
         </section>
+
 
         <section class="free-class">
           <h2 class="free-class__title  heading  heading--h2">Бесплатное занятие</h2>
@@ -253,7 +262,7 @@
               <label class="visually-hidden" for="form-name-field">Имя.</label>
             </div>
             <div class="free-class-form__phone">
-              <input id="form-phone-field" name="form-phone" type="number" placeholder="Телефон" pattern="^\8\d{10}$" required>
+              <input id="form-phone-field" name="form-phone" type="number" placeholder="Телефон" required>
               <label class="visually-hidden" for="form-phone-field">Телефон.</label>
             </div>
             <div class="free-class-form__button">
@@ -262,14 +271,78 @@
           </form>
         </section>
 
-        <section class="contacts">
 
+        <section class="contacts">
+          <h2 class="contacts__title heading heading--h2">Контакты</h2>
+
+          <dl class="contacts-list">
+            <dt>Адрес:</dt>
+            <dd>г. Омск, ул. 60 лет Октября, 7</dd>
+            <dt>График работы:</dt>
+            <dd>Пн-Вс: с 8:00 до 22:00</dd>
+            <dt>Телефон:</dt>
+            <dd>8-800-555-55-55</dd>
+            <dt>Email:</dt>
+            <dd>omsk@supergym.ru</dd>
+          </dl>
         </section>
       </main>
 
 
       <footer class="footer">
+        <a class="footer__logo">
+          <span class="footer__logo-title">SUPERGYM</span>
+        </a>
 
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Услуги</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Абонементы</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Акции</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Тренеры</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Расписание</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer__social-wrapper  social">
+          <h2 class="social__heading  visually-hidden">Социальные сети.</h2>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link" href="#" tabindex="1">
+                <svg class="social__icon  social__icon-vk" width="25" height="25" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#icon-vk"></use>
+                </svg>
+                <span class="visually-hidden">Ссылка на социальную сеть Вконтакте.</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" tabindex="1">
+                <svg class="social__icon  social__icon-ok" width="25" height="25" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#icon-ok"></use>
+                </svg>
+                <span class="visually-hidden">Ссылка на социальную сеть Одноклассники.</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" tabindex="1">
+                <svg class="social__icon  social__icon-reddit" width="25" height="25" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#icon-reddit"></use>
+                </svg>
+                <span class="visually-hidden">Ссылка на социальную сеть Реддит.</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </footer>
     </div>
 

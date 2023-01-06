@@ -9,21 +9,51 @@
     <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="css/style.min.css">
   </head>
+
+
   <body>
     <div class="wrapper">
       <header class="header">
         <a class="header__logo">
           <span class="header__logo-title">SUPERGYM</span>
         </a>
-        <a class="header__phone-link" href="tel:+78002000000">
+        <a class="header__phone-link" href="tel:+78005555555">
           <span class="visually-hidden">Контактный номер телефона.</span>
-          8-800-200-00-00
+          8-800-555-55-55
         </a>
       </header>
-      <main>
+
+
+      <main class="main-container">
+        <section class="main">
+          <ul class="main__list">
+            <li class="main__item">Тренажёрный зал</li>
+            <li class="main__item">Групповые занятия</li>
+            <li class="main__item">Кардио-зона </li>
+          </ul>
+
+          <div class="main__container">
+            <span class="main__city">Омск</span>
+            <span class="main__title">Фитнес центр</span>
+            <a class="main__button" href="#">Купить абонемент</a>
+          </div>
+
+          <div class="main__image-wrapper">
+            <picture>
+              <source type="image/webp" media="(max-width: 1199px)" srcset="img/contents/main-superman-tablet.webp 1x, img/contents/main-superman-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="img/contents/main-superman-desktop.webp 1x, img/contents/main-superman-desktop@2x.webp 2x">
+
+              <source type="image/jpg" width="324" height="390" media="(max-width: 1199px)" srcset="img/contents/main-superman-tablet.jpg 1x, img/contents/main-superman-tablet@2x.jpg 2x">
+              <img class="main__image" width="500" height="556" src="img/contents/main-superman-desktop.jpg" alt="" srcset="img/contents/main-superman-desktop@2x.jpg 2x">
+            </picture>
+          </div>
+        </section>
+
 
       </main>
-      <footer>
+
+
+      <footer class="footer">
 
       </footer>
     </div>

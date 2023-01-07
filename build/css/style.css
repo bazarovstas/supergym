@@ -870,13 +870,11 @@ button,
   }
 */
 
-@media (max-width: 1250px) {
+@media (max-width: 1199px) {
   :root {
     --side-offset: 45px;
   }
-}
 
-@media (max-width: 1199px) {
   .header {
     padding-top: 35px;
   }
@@ -996,6 +994,8 @@ button,
   }
 
   .main__list {
+    -ms-grid-column-align: center;
+    justify-self: center;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-column: 1/3;

@@ -8,31 +8,6 @@
 // Global
 // ---------------------------------
 
-// @import "blocks/header";
-// @import "blocks/logo-header";
-// @import "blocks/main-nav";
-// @import "blocks/nav-toggle";
-// @import "blocks/main";
-// @import "blocks/promo";
-// @import "blocks/advantages";
-// @import "blocks/cruises";
-// @import "blocks/booking";
-// @import "blocks/booking-form";
-// @import "blocks/contacts";
-// @import "blocks/map";
-// @import "blocks/main-footer";
-// @import "blocks/logo-footer";
-// @import "blocks/footer-nav";
-// @import "blocks/social";
-
-// // Other
-// // ---------------------------------
-
-// @import "blocks/btn";
-// @import "blocks/checkbox";
-// @import "blocks/sitemap";
-
-
 @import "variables";
 @import "mixins";
 @import "global/fonts";
@@ -42,7 +17,30 @@
 // Blocks
 // ---------------------------------
 
+@import "blocks/header";
+@import "blocks/main-container";
+@import "blocks/main";
+@import "blocks/heading";
+@import "blocks/gym";
+@import "blocks/membership";
+@import "blocks/tabs";
+@import "blocks/promo";
+@import "blocks/coaches";
+@import "blocks/advantages";
+@import "blocks/promotion";
+@import "blocks/reviews";
+@import "blocks/free-class";
+@import "blocks/free-class-form";
+@import "blocks/contacts";
+@import "blocks/footer";
+@import "blocks/social";
+
+
+// Other
+// ---------------------------------
+
 @import "blocks/btn";
+// @import "blocks/sitemap";
 
 // ---------------------------------
 

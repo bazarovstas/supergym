@@ -1,0 +1,29 @@
+.header {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  padding: 30px var(--side-offset, 20px);
+}
+
+.header__logo-title {
+  font-family: $ff-alumni;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43.2px;
+  letter-spacing: 0.02em;
+  color: $color-default-white;
+}
+
+.header__phone-link {
+  font-family: $ff-alumni;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31.2px;
+  letter-spacing: 0.03em;
+  color: $color-default-white;
+}

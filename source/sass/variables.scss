@@ -14,6 +14,7 @@ $color-persian-blue:                #2e35ac;
 $color-egyptian-blue:               #103aae;
 $color-resolution-blue:             #1c3374;
 $color-torch-red:                   #ed0233;
+$color-venetian-red:                #b80027;
 $color-light-slate-grey:            #74819c;
 $color-black-russian:               #030a1a;
 
@@ -28,7 +29,7 @@ $color-transparent-black-0-89:      rgba(16, 38, 84, 0.89);
 
 // Gradient
 
-// $black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
+$red-to-blue:                       conic-gradient(from 130.31deg at 16.03% 39.06%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
 
 // Typography
 // ---------------------------------

@@ -7,7 +7,11 @@
   align-items: center;
 
   width: 100%;
-  padding: 30px var(--side-offset, 20px);
+  padding: 30px var(--side-offset, 20px) 0;
+
+  @media (max-width: 1199px) {
+    padding-top: 35px;
+  }
 }
 
 .header__logo-title {
@@ -17,6 +21,11 @@
   line-height: 43.2px;
   letter-spacing: 0.02em;
   color: $color-default-white;
+
+  @media (max-width: 1199px) {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
 }
 
 .header__phone-link {

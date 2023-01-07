@@ -20,6 +20,16 @@
 }
 
 @font-face {
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url("../fonts/alumnisans-bold.woff2") format("woff2"),
+    url("../fonts/alumnisans-bold.woff") format("woff");
+}
+
+@font-face {
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 300;

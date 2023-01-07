@@ -393,6 +393,14 @@ template {
 }
 
 @font-face {
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/alumnisans-bold.woff2") format("woff2"), url("../fonts/alumnisans-bold.woff") format("woff");
+}
+
+@font-face {
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 300;
@@ -642,7 +650,7 @@ button,
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
-  padding: 30px var(--side-offset, 20px);
+  padding: 30px var(--side-offset, 20px) 0;
 }
 
 .header__logo-title {
@@ -836,6 +844,22 @@ button,
 @media (max-width: 1250px) {
   :root {
     --side-offset: 45px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .header {
+    padding-top: 35px;
+  }
+
+  .header__logo-title {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+
+  .main {
+    padding-top: 82px;
+    padding-bottom: 82px;
   }
 }
 

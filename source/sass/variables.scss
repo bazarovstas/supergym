@@ -26,7 +26,10 @@ $color-transparent-black-0-89:      rgba(16, 38, 84, 0.89);
 
 // Gradient
 
-$gradient-red-to-blue:              conic-gradient(from 130.31deg at 16.03% 39.06%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
+$gradient-red-to-blue-desktop:      conic-gradient(from 130.31deg at 16.03% 39.06%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
+$gradient-red-to-blue-tablet:       conic-gradient(from 139.4deg at 20.7% 35.74%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
+$gradient-red-to-blue-mobile:       conic-gradient(from 171.43deg at 35.31% 34.22%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
+
 
 // Typography
 // ---------------------------------

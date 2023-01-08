@@ -1,0 +1,83 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 38px var(--side-offset);
+
+  background-color: $color-black-russian;
+
+  @media (max-width: 767px) {
+    position: relative;
+    flex-direction: column;
+
+    padding: 50px var(--side-offset) 52px;
+  }
+}
+
+.footer__logo {
+  @media (max-width: 767px) {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+  }
+}
+
+.footer__logo-title {
+  font-family: $ff-alumni;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31.2px;
+  letter-spacing: 0.02em;
+  color: $color-default-white;
+  text-transform: uppercase;
+
+  @media (max-width: 1199px) {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+}
+
+.footer__nav {
+  display: flex;
+  align-self: baseline;
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 25px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  @media (max-width: 1199px) {
+    column-gap: 30px;
+  }
+
+  @media (max-width: 767px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+
+
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.footer__link {
+  font-family: $ff-roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.4px;
+  color: $color-default-white;
+}

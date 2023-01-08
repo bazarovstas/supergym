@@ -7,7 +7,7 @@
 :root {
   --side-offset: calc(50vw - #{$offset-side * 0.5} - var(--scrollbarWidth, 0px) * 0.5);
 
-  @media (max-width: $vp-1199) {
+  @media (max-width: ($offset-side + 45px * 2)) {
     --side-offset: 45px;
   }
 

@@ -1,0 +1,54 @@
+.video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  background-color: $color-default-black;
+}
+
+.video__button {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  display: none;
+
+  width: 72px;
+  height: 72px;
+
+  background: $gradient-red-to-blue-button;
+  border-radius: 50%;
+  border: none;
+
+  // border: 12px solid blue;
+  // border-image: linear-gradient(97.05deg, rgba(237, 2, 51, 0.2) 17.6%, rgba(0, 62, 183, 0.2) 95.31%);
+  // border-image-slice: 1;
+  // border-spacing: 12px;
+
+  // outline: 2px linear-gradient(97.05deg, rgba(237, 2, 51, 0.2) 17.6%, rgba(0, 62, 183, 0.2) 95.31%);
+  // outline-offset: 12px;
+  // outline: 2px linear-gradient(97.05deg, rgba(237, 2, 51, 0.2) 17.6%, rgba(0, 62, 183, 0.2) 95.31%);
+}
+
+.video__button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 17px;
+  height: 17px;
+
+  clip-path: polygon(25% 90%, 25% 10%, 100% 50%);
+  background-color: $color-default-white;
+}
+
+.video--enabled {
+  cursor: pointer;
+}
+
+.video--enabled .video__button {
+  display: block;
+}

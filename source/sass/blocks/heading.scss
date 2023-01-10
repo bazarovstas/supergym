@@ -46,4 +46,20 @@
       text-align: left;
     }
   }
+
+  &--h2-promo {
+    font-family: $ff-alumni;
+    font-weight: 600;
+    font-size: 82px;
+    line-height: 78.72px;
+    letter-spacing: 0.03em;
+    color: $color-default-white;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media (max-width: 1199px) {
+      font-size: 48px;
+      line-height: 46.08px;
+    }
+  }
 }

@@ -805,6 +805,17 @@ button,
   text-align: left;
 }
 
+.heading--h2-promo {
+  font-family: "Alumni Sans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 82px;
+  line-height: 78.72px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .gym {
   position: relative;
   display: -webkit-box;
@@ -857,6 +868,82 @@ button,
 
 .membership {
   background-color: #f8f9fc;
+}
+
+.promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 120px var(--side-offset, 20px) 40px;
+}
+
+.promo__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 43.1%;
+  padding: 85px 78px;
+  background-color: #ed0233;
+}
+
+.promo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.promo__title {
+  max-width: 201px;
+}
+
+.promo__list {
+  position: relative;
+  margin: 0;
+}
+
+.promo__item {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.promo__item--bold {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.promo__item--smaller {
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  max-width: 40px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.promo__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.promo__image-wrapper {
+  width: 56.9%;
 }
 
 .footer {
@@ -939,6 +1026,9 @@ button,
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 18px 54px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 700;
@@ -1134,6 +1224,11 @@ button,
     text-align: center;
   }
 
+  .heading--h2-promo {
+    font-size: 48px;
+    line-height: 46.08px;
+  }
+
   .gym {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1169,6 +1264,38 @@ button,
     min-width: 678px;
     min-height: 345px;
     margin: 0 auto;
+  }
+
+  .promo__container {
+    width: 43%;
+    padding: 51px 45px;
+  }
+
+  .promo__title {
+    max-width: 117px;
+  }
+
+  .promo__list {
+    min-width: 60px;
+  }
+
+  .promo__item--bold {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .promo__item--smaller {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .promo__item {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .promo__image-wrapper {
+    width: 57%;
   }
 
   .footer__logo-title {

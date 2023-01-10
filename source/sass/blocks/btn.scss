@@ -18,6 +18,18 @@
 
   transition: opacity $trans-default;
 
+  @include hover-focus {
+    opacity: 0.8;
+  }
+
+  @media (max-width: 1199px) {
+    padding: 18px 30px;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+
   &--secondary {
     color: $color-default-black;
   }
@@ -28,15 +40,15 @@
     pointer-events: none;
   }
 
-  @include hover-focus {
-    opacity: 0.8;
-  }
+  &--promo {
+    @media (max-width: 1199px) {
+      max-width: 265px;
+      padding: 14px 50px;
 
-  @media (max-width: 1199px) {
-    padding: 18px 30px;
-  }
+      font-size: 10px;
+      line-height: 11.72px;
 
-  @media (max-width: 1199px) {
-    width: 100%;
+      border: 2px solid $color-default-white;
+    }
   }
 }

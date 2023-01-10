@@ -2,6 +2,10 @@
   display: flex;
 
   padding: 120px var(--side-offset, 20px) 40px;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 }
 
 .promo__container {
@@ -19,9 +23,11 @@
     padding: 51px 45px;
   }
 
-  // @media (max-width: 767px) {
-
-  // }
+  @media (max-width: 767px) {
+    min-height: 292px;
+    width: 100%;
+    padding: 50px 44px;
+  }
 }
 
 .promo__wrapper {
@@ -143,6 +149,10 @@
 
   @media (max-width: 1199px) {
     width: 57%;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
   }
 }
 

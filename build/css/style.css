@@ -859,6 +859,7 @@ button,
 }
 
 .gym__video-wrapper {
+  display: none;
   position: absolute;
   top: 408px;
   left: 40%;
@@ -1357,7 +1358,7 @@ button,
 
   .btn--promo {
     max-width: 265px;
-    padding: 14px 50px;
+    padding: 14px 48px;
     font-size: 10px;
     line-height: 11.72px;
     border: 2px solid #ffffff;
@@ -1480,6 +1481,23 @@ button,
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+
+  .promo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .promo__container {
+    min-height: 292px;
+    width: 100%;
+    padding: 50px 44px;
+  }
+
+  .promo__image-wrapper {
+    width: 100%;
   }
 
   .footer {

@@ -29,6 +29,23 @@
   &--h2 {
     font-family: $ff-alumni;
     font-weight: 600;
+    font-size: 54px;
+    line-height: 64.8px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    // @media (max-width: 1199px) {
+
+    // }
+
+    // @media (max-width: 767px) {
+
+    // }
+  }
+
+  &--h2-gym {
+    font-family: $ff-alumni;
+    font-weight: 600;
     font-size: 48px;
     line-height: 57.6px;
     letter-spacing: 0.03em;

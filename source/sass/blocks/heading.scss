@@ -87,6 +87,10 @@
     font-size: 18px;
     line-height: 25.2px;
     color: $color-default-white;
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
   }
 
   &--h3-secondary {

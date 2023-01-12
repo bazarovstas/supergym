@@ -22,6 +22,7 @@ $color-black-russian:               #030a1a;
 
 $color-transparent-0:               rgba(255, 255, 255, 0);
 $color-transparent-black-0-89:      rgba(16, 38, 84, 0.89);
+$color-transparent-red-0-20:        rgba(209, 10, 66, 0.2);
 
 // Gradient
 
@@ -29,6 +30,8 @@ $gradient-red-to-blue-desktop:      conic-gradient(from 130.31deg at 16.03% 39.0
 $gradient-red-to-blue-tablet:       conic-gradient(from 139.4deg at 20.7% 35.74%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
 $gradient-red-to-blue-mobile:       conic-gradient(from 171.43deg at 35.31% 34.22%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
 $gradient-red-to-blue-button:       linear-gradient(44.89deg, #003d85 25.38%, #b80027 74.89%);
+$gradient-red-to-blue-number:       linear-gradient(142.51deg, #d10a42 0%, #0041ca 87.33%);
+
 
 // Typography
 // ---------------------------------

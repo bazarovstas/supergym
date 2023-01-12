@@ -1138,6 +1138,15 @@ button,
   color: #ffffff;
 }
 
+.advantages__item-content {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
 .advantages__dl {
   margin: 0;
 }
@@ -1156,15 +1165,6 @@ button,
   font-size: 16px;
   line-height: 22.4px;
   color: #102654;
-}
-
-.advantages__item-content {
-  margin: 0;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  text-align: center;
 }
 
 .footer {
@@ -1637,15 +1637,15 @@ button,
     line-height: 33px;
   }
 
+  .advantages__item-content {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
   .advantages__dt {
     margin-bottom: 5px;
     font-size: 20px;
     line-height: 30px;
-  }
-
-  .advantages__item-content {
-    max-width: 200px;
-    margin: 0 auto;
   }
 
   .footer__logo-title {
@@ -1749,6 +1749,11 @@ button,
     margin-bottom: 35px;
   }
 
+  .heading--h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
   .heading--h2-gym {
     font-size: 32px;
     line-height: 38.4px;
@@ -1806,6 +1811,54 @@ button,
 
   .promo__image-wrapper {
     width: 100%;
+  }
+
+  .advantages {
+    padding: 70px 0;
+  }
+
+  .advantages__list {
+    -ms-grid-columns: (100%)[1];
+    grid-template-columns: repeat(1, 100%);
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    min-height: 100%;
+  }
+
+  .advantages__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-column: auto;
+    grid-row: auto;
+    max-width: 100%;
+    min-width: 320px;
+    width: 100%;
+  }
+
+  .advantages__item--additional {
+    min-width: 100%;
+    max-height: 100%;
+  }
+
+  .advantages__item-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .advantages__item-content {
+    max-width: 180px;
+  }
+
+  .advantages__dl {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    text-align: center;
   }
 
   .footer {

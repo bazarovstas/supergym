@@ -41,7 +41,7 @@
 
     @media (max-width: 767px) {
       font-size: 32px;
-      line-height: 38px;
+      line-height: 38.4px;
     }
   }
 
@@ -94,6 +94,11 @@
       font-weight: 700;
       font-size: 42px;
       line-height: 50.4px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 32px;
+      line-height: 38.4px;
     }
   }
 

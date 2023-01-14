@@ -10,6 +10,11 @@
     max-width: 474px;
     margin: 0 auto;
   }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 100%;
+    gap: 35px;
+  }
 }
 
 .free-class-form__name input,
@@ -38,6 +43,10 @@
 
 .free-class-form__button {
   grid-column: 1 / 3;
+
+  @media (max-width: 767px) {
+    grid-column: auto;
+  }
 }
 
 .free-class-form__button button {

@@ -7,6 +7,7 @@
     <meta name="description" content="SUPERGYM - доступный фитнес в Омске.">
     <title>SUPERGYM</title>
     <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="fonts/alumnisans-extrabold.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/alumnisans-bold.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/alumnisans-semibold.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/robotocondensed-bold.woff2" as="font" crossorigin="anonymous">
@@ -273,7 +274,7 @@
 
 
         <section class="free-class">
-          <h2 class="free-class__title  heading  heading--h2">Бесплатное занятие</h2>
+          <h2 class="free-class__title  heading  heading--h2-free-class">Бесплатное занятие</h2>
 
           <form class="free-class-form" action="https://echo.htmlacademy.ru/" method="get">
             <div class="free-class-form__name">
@@ -285,7 +286,7 @@
               <label class="visually-hidden" for="form-phone-field">Телефон.</label>
             </div>
             <div class="free-class-form__button">
-              <button type="submit">Отправить</button>
+              <button class="btn" type="submit">Отправить</button>
             </div>
           </form>
         </section>
@@ -295,14 +296,22 @@
           <h2 class="contacts__title heading heading--h2">Контакты</h2>
 
           <dl class="contacts-list">
-            <dt>Адрес:</dt>
-            <dd>г. Омск, ул. 60 лет Октября, 7</dd>
-            <dt>График работы:</dt>
-            <dd>Пн-Вс: с 8:00 до 22:00</dd>
-            <dt>Телефон:</dt>
-            <dd>8-800-555-55-55</dd>
-            <dt>Email:</dt>
-            <dd>omsk@supergym.ru</dd>
+            <div class="contacts-layout-wrapper">
+              <dt>Адрес:</dt>
+              <dd>г. Омск, ул. 60 лет Октября, 7</dd>
+            </div>
+            <div class="contacts-layout-wrapper">
+              <dt>График работы:</dt>
+              <dd>Пн-Вс: с 8:00 до 22:00</dd>
+            </div>
+            <div class="contacts-layout-wrapper">
+              <dt>Телефон:</dt>
+              <dd>8-800-555-55-55</dd>
+            </div>
+            <div class="contacts-layout-wrapper">
+              <dt>Email:</dt>
+              <dd>omsk@supergym.ru</dd>
+            </div>
           </dl>
         </section>
       </main>

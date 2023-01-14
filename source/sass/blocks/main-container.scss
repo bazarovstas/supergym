@@ -1,3 +1,7 @@
 .wrapper .main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-auto-rows: min-content;
+
   margin-bottom: auto;
 }

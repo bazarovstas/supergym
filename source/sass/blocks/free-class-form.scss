@@ -1,0 +1,39 @@
+.free-class-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: min-content;
+  gap: 30px;
+
+  max-width: 410px;
+}
+
+.free-class-form__name input,
+.free-class-form__phone input {
+  width: 100%;
+
+  font-family: $ff-roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: $color-default-white;
+
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $color-light-slate-grey;
+
+  &::placeholder {
+    font-family: $ff-roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: $color-default-white;
+  }
+}
+
+.free-class-form__button {
+  grid-column: 1 / 3;
+}
+
+.free-class-form__button button {
+  width: 100%;
+}

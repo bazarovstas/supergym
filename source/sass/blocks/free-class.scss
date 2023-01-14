@@ -1,0 +1,12 @@
+.free-class {
+  grid-column: 1 / 2;
+  min-height: 337px;
+
+  padding: 56px 0 70px var(--side-offset, 20px);
+
+  background-color: $color-default-black;
+}
+
+.free-class__title {
+  max-width: 410px;
+}

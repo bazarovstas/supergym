@@ -82,6 +82,15 @@
     }
   }
 
+  &--h2-free-class {
+    font-family: $ff-alumni;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 84px;
+    letter-spacing: 0.03em;
+    color: $color-default-white;
+  }
+
   &--h3 {
     font-weight: 400;
     font-size: 18px;

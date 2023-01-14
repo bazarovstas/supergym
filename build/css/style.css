@@ -1382,6 +1382,7 @@ button,
 .free-class-form__name input,
 .free-class-form__phone input {
   width: 100%;
+  padding: 8px 0;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -1448,6 +1449,9 @@ button,
 }
 
 .contacts {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
   min-height: 337px;
   padding: 56px var(--side-offset, 20px) 40px 120px;
   border-top: 1px solid #74819c;
@@ -1608,6 +1612,12 @@ button,
 .btn:disabled {
   opacity: 0.5;
   pointer-events: none;
+}
+
+.btn--free-class {
+  font-size: 14px;
+  line-height: 16.41px;
+  border: 3px solid #ffffff;
 }
 
 .video {
@@ -1784,6 +1794,12 @@ button,
   .heading--h2-promo {
     font-size: 48px;
     line-height: 46.08px;
+  }
+
+  .heading--h2-free-class {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50.4px;
   }
 
   .gym {
@@ -2013,6 +2029,61 @@ button,
     -ms-grid-row-span: 1;
     grid-row: 3/4;
     min-height: 211px;
+  }
+
+  .free-class {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    min-height: 324px;
+    padding: 70px var(--side-offset, 20px);
+  }
+
+  .free-class__title {
+    max-width: 474px;
+    margin: 0 auto 25px;
+  }
+
+  .free-class-form {
+    max-width: 474px;
+    margin: 0 auto;
+  }
+
+  .contacts {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    min-height: 351px;
+    padding: 70px var(--side-offset, 20px) 40px;
+  }
+
+  .contacts__title {
+    max-width: 474px;
+    margin: 0 auto 30px;
+  }
+
+  .contacts-list::before {
+    left: 55%;
+    height: 129px;
+  }
+
+  .contacts-list {
+    -webkit-column-gap: 90px;
+    -moz-column-gap: 90px;
+    column-gap: 90px;
+    max-width: 474px;
+    margin: 0 auto;
+  }
+
+  .contacts-list dt {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .contacts-list dd {
+    min-width: 218px;
+    font-size: 18px;
+    line-height: 27.42px;
   }
 
   .footer__logo-title {

@@ -5,11 +5,17 @@
   gap: 30px;
 
   max-width: 410px;
+
+  @media (max-width: 1199px) {
+    max-width: 474px;
+    margin: 0 auto;
+  }
 }
 
 .free-class-form__name input,
 .free-class-form__phone input {
   width: 100%;
+  padding: 8px 0;
 
   font-family: $ff-roboto;
   font-weight: 400;

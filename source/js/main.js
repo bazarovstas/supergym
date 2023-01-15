@@ -1,9 +1,10 @@
 // import {} from './modules/video';
-import {initSwiperReviews} from './modules/init-swiper';
+import {initSwiperCoaches, initSwiperReviews} from './modules/init-swiper';
 
 // ---------------------------------
 
 window.addEventListener('DOMContentLoaded', () => {
+  initSwiperCoaches();
   initSwiperReviews();
 
   // Modules

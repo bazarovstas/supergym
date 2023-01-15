@@ -119,4 +119,12 @@
     line-height: 34px;
     color: $color-resolution-blue;
   }
+
+  &--h3-coaches {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-default-white;
+    text-align: center;
+  }
 }

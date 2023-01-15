@@ -271,56 +271,58 @@
         <section class="reviews">
           <div class="reviews__wrapper">
             <h2 class="reviews__title  heading  heading--h2">Отзывы</h2>
-            <div class="reviews__container  swiper">
-              <button class="reviews__button  swiper-button-prev" type="button" aria-label="Предыдущий отзыв.">
-                <svg class="reviews__icon" width="16" height="32" aria-hidden="true" focusable="false">
-                  <use xlink:href="img/sprite.svg#arrow"></use>
-                </svg>
-              </button>
-              <button class="reviews__button  reviews__button--right  swiper-button-next" type="button" aria-label="Следующий отзыв.">
-                <svg class="reviews__icon  reviews__icon--right" width="16" height="32" aria-hidden="true" focusable="false">
-                  <use xlink:href="img/sprite.svg#arrow"></use>
-                </svg>
-              </button>
+            <div class="reviews__button-wrapper">
+              <div class="reviews__container  swiper">
+                <button class="reviews__button  swiper-button-prev" type="button" aria-label="Предыдущий отзыв.">
+                  <svg class="reviews__icon" width="16" height="32" aria-hidden="true" focusable="false">
+                    <use xlink:href="img/sprite.svg#arrow"></use>
+                  </svg>
+                </button>
+                <button class="reviews__button  reviews__button--right  swiper-button-next" type="button" aria-label="Следующий отзыв.">
+                  <svg class="reviews__icon  reviews__icon--right" width="16" height="32" aria-hidden="true" focusable="false">
+                    <use xlink:href="img/sprite.svg#arrow"></use>
+                  </svg>
+                </button>
 
-              <div class="swiper-wrapper  reviews__swiper-wrapper  reviews--no-js">
-                <article class="reviews__review  swiper-slide">
-                  <h3 class="visually-hidden">Отзыв</h3>
-                  <div class="reviews__image-wrapper">
-                    <picture>
-                      <source type="image/webp" width="68" height="68" media="(max-width: 767px)" srcset="img/contents/reviews-reviewer-1-mobile.webp 1x, img/contents/reviews-reviewer-1-mobile@2x.webp 2x">
-                      <source type="image/webp" width="80" height="80" media="(max-width: 1199px)" srcset="img/contents/reviews-reviewer-1-desktop-tablet.webp 1x, img/contents/reviews-reviewer-1-desktop-tablet@2x.webp 2x">
-                      <source type="image/webp" width="80" height="80" srcset="img/contents/reviews-reviewer-1-desktop-tablet.webp 1x, img/contents/reviews-reviewer-1-desktop-tablet@2x.webp 2x">
+                <div class="swiper-wrapper  reviews__swiper-wrapper  reviews--no-js">
+                  <article class="reviews__review  swiper-slide">
+                    <h3 class="visually-hidden">Отзыв</h3>
+                    <div class="reviews__image-wrapper">
+                      <picture>
+                        <source type="image/webp" width="68" height="68" media="(max-width: 767px)" srcset="img/contents/reviews-reviewer-1-mobile.webp 1x, img/contents/reviews-reviewer-1-mobile@2x.webp 2x">
+                        <source type="image/webp" width="80" height="80" media="(max-width: 1199px)" srcset="img/contents/reviews-reviewer-1-desktop-tablet.webp 1x, img/contents/reviews-reviewer-1-desktop-tablet@2x.webp 2x">
+                        <source type="image/webp" width="80" height="80" srcset="img/contents/reviews-reviewer-1-desktop-tablet.webp 1x, img/contents/reviews-reviewer-1-desktop-tablet@2x.webp 2x">
 
-                      <source type="image/jpg" width="68" height="68" media="(max-width: 767px)" srcset="img/contents/reviews-reviewer-1-mobile.jpg 1x, img/contents/reviews-reviewer-1-mobile@2x.jpg 2x">
-                      <source type="image/jpg" width="80" height="80" media="(max-width: 1199px)" srcset="img/contents/reviews-reviewer-1-desktop-tablet.jpg 1x, img/contents/reviews-reviewer-1-desktop-tablet@2x.jpg 2x">
-                      <img class="reviews__image" width="80" height="80" src="img/contents/reviews-reviewer-1-desktop-tablet.jpg" srcset="img/contents/reviews-reviewer-1-desktop-tablet@2x.jpg 2x" alt="Пользователь Анна Орлова.">
-                    </picture>
-                  </div>
-                  <div class="reviews__review-wrapper">
-                    <p class="reviews__author">Анна Орлова</p>
-                    <blockquote class="reviews__author-review">"Хожу в SuperClub уже больше года. Нравится, что в клубе всегда чисто, тренажеры обновляют, персонал дружелюбный. Зал просторный, даже в вечернее время нет очередей"</blockquote>
-                  </div>
-                </article>
+                        <source type="image/jpg" width="68" height="68" media="(max-width: 767px)" srcset="img/contents/reviews-reviewer-1-mobile.jpg 1x, img/contents/reviews-reviewer-1-mobile@2x.jpg 2x">
+                        <source type="image/jpg" width="80" height="80" media="(max-width: 1199px)" srcset="img/contents/reviews-reviewer-1-desktop-tablet.jpg 1x, img/contents/reviews-reviewer-1-desktop-tablet@2x.jpg 2x">
+                        <img class="reviews__image" width="80" height="80" src="img/contents/reviews-reviewer-1-desktop-tablet.jpg" srcset="img/contents/reviews-reviewer-1-desktop-tablet@2x.jpg 2x" alt="Пользователь Анна Орлова.">
+                      </picture>
+                    </div>
+                    <div class="reviews__review-wrapper">
+                      <p class="reviews__author">Анна Орлова</p>
+                      <blockquote class="reviews__author-review">"Хожу в SuperClub уже больше года. Нравится, что в клубе всегда чисто, тренажеры обновляют, персонал дружелюбный. Зал просторный, даже в вечернее время нет очередей"</blockquote>
+                    </div>
+                  </article>
 
-                <article class="reviews__review  swiper-slide">
-                  <h3 class="visually-hidden">Отзыв</h3>
-                  <div class="reviews__image-wrapper">
-                    <picture>
-                      <source type="image/webp" width="68" height="68" media="(max-width: 767px)" srcset="img/contents/reviews-reviewer-2-mobile.webp 1x, img/contents/reviews-reviewer-2-mobile@2x.webp 2x">
-                      <source type="image/webp" width="80" height="80" media="(max-width: 1199px)" srcset="img/contents/reviews-reviewer-2-desktop-tablet.webp 1x, img/contents/reviews-reviewer-2-desktop-tablet@2x.webp 2x">
-                      <source type="image/webp" width="80" height="80" srcset="img/contents/reviews-reviewer-2-desktop-tablet.webp 1x, img/contents/reviews-reviewer-2-desktop-tablet@2x.webp 2x">
+                  <article class="reviews__review  swiper-slide">
+                    <h3 class="visually-hidden">Отзыв</h3>
+                    <div class="reviews__image-wrapper">
+                      <picture>
+                        <source type="image/webp" width="68" height="68" media="(max-width: 767px)" srcset="img/contents/reviews-reviewer-2-mobile.webp 1x, img/contents/reviews-reviewer-2-mobile@2x.webp 2x">
+                        <source type="image/webp" width="80" height="80" media="(max-width: 1199px)" srcset="img/contents/reviews-reviewer-2-desktop-tablet.webp 1x, img/contents/reviews-reviewer-2-desktop-tablet@2x.webp 2x">
+                        <source type="image/webp" width="80" height="80" srcset="img/contents/reviews-reviewer-2-desktop-tablet.webp 1x, img/contents/reviews-reviewer-2-desktop-tablet@2x.webp 2x">
 
-                      <source type="image/jpg" width="68" height="68" media="(max-width: 767px)" srcset="img/contents/reviews-reviewer-2-mobile.jpg 1x, img/contents/reviews-reviewer-2-mobile@2x.jpg 2x">
-                      <source type="image/jpg" width="80" height="80" media="(max-width: 1199px)" srcset="img/contents/reviews-reviewer-2-desktop-tablet.jpg 1x, img/contents/reviews-reviewer-2-desktop-tablet@2x.jpg 2x">
-                      <img class="reviews__image" width="80" height="80" src="img/contents/reviews-reviewer-2-desktop-tablet.jpg" srcset="img/contents/reviews-reviewer-2-desktop-tablet@2x.jpg 2x" alt="Пользователь Светлана Спортивная.">
-                    </picture>
-                  </div>
-                  <div class="reviews__review-wrapper">
-                    <p class="reviews__author">Светлана Спортивная</p>
-                    <blockquote class="reviews__author-review">"Хочу выразить благодарность спорт-клубу SuperClub за правильный подход к делу. Вы создали лучшее место в Омске, где можно привести себя в форму, стать здоровее и сильнее. Спасибо вам за это!"</blockquote>
-                  </div>
-                </article>
+                        <source type="image/jpg" width="68" height="68" media="(max-width: 767px)" srcset="img/contents/reviews-reviewer-2-mobile.jpg 1x, img/contents/reviews-reviewer-2-mobile@2x.jpg 2x">
+                        <source type="image/jpg" width="80" height="80" media="(max-width: 1199px)" srcset="img/contents/reviews-reviewer-2-desktop-tablet.jpg 1x, img/contents/reviews-reviewer-2-desktop-tablet@2x.jpg 2x">
+                        <img class="reviews__image" width="80" height="80" src="img/contents/reviews-reviewer-2-desktop-tablet.jpg" srcset="img/contents/reviews-reviewer-2-desktop-tablet@2x.jpg 2x" alt="Пользователь Светлана Спортивная.">
+                      </picture>
+                    </div>
+                    <div class="reviews__review-wrapper">
+                      <p class="reviews__author">Светлана Спортивная</p>
+                      <blockquote class="reviews__author-review">"Хочу выразить благодарность спорт-клубу SuperClub за правильный подход к делу. Вы создали лучшее место в Омске, где можно привести себя в форму, стать здоровее и сильнее. Спасибо вам за это!"</blockquote>
+                    </div>
+                  </article>
+                </div>
               </div>
             </div>
           </div>

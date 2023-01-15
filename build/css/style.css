@@ -1595,8 +1595,10 @@ button,
   padding: 55px 0 120px;
 }
 
-.reviews__wrapper {
+.reviews__button-wrapper {
   position: relative;
+  width: 680px;
+  margin: 0 auto;
 }
 
 .reviews__container {
@@ -1609,14 +1611,15 @@ button,
 
 .reviews__button {
   position: absolute;
-  top: 57%;
-  left: 25%;
+  top: 48%;
+  left: 0;
   background-color: transparent;
   border: none;
 }
 
 .reviews__button--right {
-  left: 73%;
+  top: 45%;
+  left: 96%;
 }
 
 .reviews__icon {

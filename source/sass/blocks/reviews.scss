@@ -2,10 +2,22 @@
   grid-column: 1 / 3;
 
   padding: 55px 0 120px;
+
+  @media (max-width: 1199px) {
+    padding: 50px 0 100px;
+  }
 }
 
-.reviews__wrapper {
+// .reviews__wrapper {
 
+// }
+
+.reviews__title {
+  margin-bottom: 35px;
+
+  // @media (max-width: 1199px) {
+
+  // }
 }
 
 .reviews__button-wrapper {
@@ -19,10 +31,14 @@
   position: static;
 
   min-height: 242px;
-  width: 560px;
+  max-width: 560px;
   padding: 62px;
 
   background-color: $color-resolution-blue;
+
+  @media (max-width: 1199px) {
+    max-width: 566px;
+  }
 }
 
 .reviews__button {

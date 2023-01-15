@@ -1595,6 +1595,10 @@ button,
   padding: 55px 0 120px;
 }
 
+.reviews__title {
+  margin-bottom: 35px;
+}
+
 .reviews__button-wrapper {
   position: relative;
   width: 680px;
@@ -1604,7 +1608,7 @@ button,
 .reviews__container {
   position: static;
   min-height: 242px;
-  width: 560px;
+  max-width: 560px;
   padding: 62px;
   background-color: #1c3374;
 }
@@ -2341,6 +2345,14 @@ button,
     -ms-grid-row-span: 1;
     grid-row: 3/4;
     min-height: 211px;
+  }
+
+  .reviews {
+    padding: 50px 0 100px;
+  }
+
+  .reviews__container {
+    max-width: 566px;
   }
 
   .free-class {

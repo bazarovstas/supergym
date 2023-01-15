@@ -64,6 +64,43 @@
   width: 100%;
 }
 
+.coaches__preview {
+  position: relative;
+
+  padding: 58px 57px;
+
+  overflow: hidden;
+
+  background-image: linear-gradient(180deg, transparent 50%, #011c40 100%);
+
+  transition: {
+    property: background-color, box-shadow;
+    duration: 0.2s;
+    timing-function: ease-in;
+  }
+
+  width: 260px;
+  min-height: 294px;
+}
+
+.coaches__item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  // color: $color-default-white;
+}
+
+.coaches__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+
 
 // body {
 //   min-height: 100vh;

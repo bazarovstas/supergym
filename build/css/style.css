@@ -1322,6 +1322,44 @@ button,
   width: 100%;
 }
 
+.coaches__preview {
+  position: relative;
+  padding: 58px 57px;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#011c40));
+  background-image: -o-linear-gradient(top, transparent 50%, #011c40 100%);
+  background-image: linear-gradient(180deg, transparent 50%, #011c40 100%);
+  -webkit-transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, -webkit-box-shadow;
+  -o-transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  width: 260px;
+  min-height: 294px;
+}
+
+.coaches__item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.coaches__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .advantages {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;

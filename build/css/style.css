@@ -1283,6 +1283,11 @@ button,
   margin: 0 auto;
 }
 
+.coaches__title {
+  padding: 0 0 40px var(--side-offset, 20px);
+  text-align: left;
+}
+
 .coaches__button-wrapper {
   position: relative;
   margin: 0 auto;
@@ -1290,7 +1295,7 @@ button,
 
 .coaches__container {
   position: static;
-  width: 1160px;
+  max-width: 1160px;
 }
 
 .coaches__button {
@@ -1316,7 +1321,7 @@ button,
 .coaches__preview {
   position: relative;
   max-height: 294px;
-  width: 260px;
+  width: 100%;
   padding: 50px 46px 58px 55px;
   -webkit-transition-property: background-color;
   -o-transition-property: background-color;
@@ -1400,7 +1405,7 @@ button,
 }
 
 .coaches__preview-item {
-  margin: 24px 0 0 15px;
+  margin: 22px 0 0 15px;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -2367,6 +2372,19 @@ button,
     width: 57%;
   }
 
+  .coaches {
+    padding: 60px var(--side-offset, 20px) 95px;
+  }
+
+  .coaches__title {
+    padding: 0 0 30px;
+    text-align: center;
+  }
+
+  .coaches__container {
+    max-width: 566px;
+  }
+
   .advantages {
     padding: 100px var(--side-offset, 20px);
   }
@@ -2742,12 +2760,27 @@ button,
     width: 100%;
   }
 
+  .coaches__container {
+    max-width: 226px;
+  }
+
   .coaches__button {
     padding: 0;
   }
 
   .coaches__button--right {
     padding: 0;
+  }
+
+  .coaches__preview {
+    max-height: 274px;
+    padding: 47px 33px;
+  }
+
+  .coaches__preview-title {
+    -webkit-transform: translateY(170px);
+    -ms-transform: translateY(170px);
+    transform: translateY(170px);
   }
 
   .advantages {

@@ -6,8 +6,8 @@ const reviews = document.querySelector('.reviews--no-js');
 coaches.classList.remove('coaches--no-js');
 reviews.classList.remove('reviews--no-js');
 
-export function initSwiperCoaches() {
-  const initSwiper = new Swiper('.coaches__container', {
+export const initSwiper = () => {
+  const coachesSwiper = new Swiper('.coaches__container', {
     autoHeight: true,
     breakpoints: {
 
@@ -28,6 +28,18 @@ export function initSwiperCoaches() {
         slidesPerView: 4,
         spaceBetween: 40,
       },
+
+      // 580: {
+      //   initialSlide: 2,
+      //   slidesPerView: 2,
+      //   spaceBetween: 30,
+      // },
+
+      // 1070: {
+      //   initialSlide: 2,
+      //   slidesPerView: 3,
+      //   spaceBetween: 30,
+      // },
     },
     direction: 'horizontal',
     grabCursor: true,
@@ -41,10 +53,8 @@ export function initSwiperCoaches() {
     slidesPerView: 4,
     spaceBetween: 40,
   });
-}
 
-export function initSwiperReviews() {
-  const initSwiper = new Swiper('.reviews__container', {
+  const reviewsSwiper = new Swiper('.reviews__container', {
     autoHeight: true,
     direction: 'horizontal',
     grabCursor: true,
@@ -58,4 +68,6 @@ export function initSwiperReviews() {
     slidesPerView: 1,
     spaceBetween: 80,
   });
-}
+
+  return [coachesSwiper, reviewsSwiper];
+};

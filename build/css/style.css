@@ -1283,11 +1283,6 @@ button,
   margin: 0 auto;
 }
 
-.coaches__title {
-  padding: 0 var(--side-offset, 20px) 35px;
-  text-align: left;
-}
-
 .coaches__button-wrapper {
   position: relative;
   margin: 0 auto;
@@ -1318,46 +1313,118 @@ button,
   rotate: 180deg;
 }
 
-.coaches__image-wrapper {
-  width: 100%;
-}
-
 .coaches__preview {
   position: relative;
-  padding: 58px 57px;
-  overflow: hidden;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#011c40));
-  background-image: -o-linear-gradient(top, transparent 50%, #011c40 100%);
-  background-image: linear-gradient(180deg, transparent 50%, #011c40 100%);
-  -webkit-transition-property: background-color, -webkit-box-shadow;
-  transition-property: background-color, -webkit-box-shadow;
-  -o-transition-property: background-color, box-shadow;
-  transition-property: background-color, box-shadow;
-  transition-property: background-color, box-shadow, -webkit-box-shadow;
+  max-height: 294px;
+  width: 260px;
+  padding: 50px 46px 58px 55px;
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
   -webkit-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-in;
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
-  width: 260px;
-  min-height: 294px;
+  overflow: hidden;
 }
 
-.coaches__item {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
+.coaches__preview-title {
+  z-index: 1;
+  color: #ffffff;
+  text-align: center;
+  -webkit-transform: translateY(190px);
+  -ms-transform: translateY(190px);
+  transform: translateY(190px);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
-.coaches__image {
+.coaches__preview-image-wrapper {
+  width: 100%;
+}
+
+.coaches__preview-image {
   position: absolute;
+  z-index: -1;
   inset: 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  z-index: -1;
+}
+
+.coaches__preview-info {
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-transform: translateY(180px);
+  -ms-transform: translateY(180px);
+  transform: translateY(180px);
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  -o-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transition-duration: 0.3s, 0.6s;
+  -o-transition-duration: 0.3s, 0.6s;
+  transition-duration: 0.3s, 0.6s;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.coaches__preview-direction {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b6bdcc;
+  text-align: center;
+}
+
+.coaches__preview-list {
+  margin: 16px 0 0 0;
+  padding: 0;
+}
+
+.coaches__preview-item {
+  margin: 24px 0 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.coaches__preview:hover,
+.coaches__preview:focus-within {
+  background-color: rgba(16, 38, 84, 0.89);
+}
+
+.coaches__preview:hover .coaches__preview-title,
+.coaches__preview:focus-within .coaches__preview-title {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.coaches__preview:hover .coaches__preview-info,
+.coaches__preview:focus-within .coaches__preview-info {
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
 }
 
 .advantages {

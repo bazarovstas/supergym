@@ -1,0 +1,93 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs__nav {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 35px;
+
+  max-width: 360px;
+  margin: 0 auto 39px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.tabs_button {
+  background-color: transparent;
+
+  border: none;
+}
+
+.tabs__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.tabs__item {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 360px;
+  min-height: 448px;
+  // margin: 0 auto;
+  padding: 68px 70px;
+
+
+  background-color: $color-default-white;
+}
+
+.tabs__description {
+  display: block;
+  padding-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 28.6px;
+  text-align: center;
+}
+
+.tabs__term {
+  display: block;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.tabs__price {
+  display: flex;
+  column-gap: 14px;
+
+  width: min-content;
+  margin: 0 auto;
+  transform: translate(0, 100%);
+
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 66px;
+  color: $color-egyptian-blue;
+}
+
+.tabs__rouble {
+  display: block;
+
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 66px;
+  color: $color-default-black;
+}
+
+// .tabs__link {
+
+// }

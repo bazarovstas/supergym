@@ -58,4 +58,16 @@
 
     border: 3px solid $color-default-white;
   }
+
+  &--tabs {
+    margin-top: auto;
+    padding: 26px 44px;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: $color-default-black;
+
+    border: 2px solid $color-default-black;
+  }
 }

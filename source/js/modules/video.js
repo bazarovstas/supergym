@@ -1,4 +1,4 @@
-function findVideos() {
+export function findVideos() {
   const videos = document.querySelectorAll('.video');
 
   for (let i = 0; i < videos.length; i++) {
@@ -24,14 +24,6 @@ function setupVideo(video) {
   video.classList.add('video--enabled');
 }
 
-// function parseMediaURL(media) {
-//   let regexp = /https:\/\/i\.ytimg\.com\/vi\/([a-zA-Z0-9_-]+)\/maxresdefault\.jpg/i;
-//   let url = media.src;
-//   let match = url.match(regexp);
-
-//   return match[1];
-// }
-
 function createIframe(id) {
   let iframe = document.createElement('iframe');
 
@@ -48,5 +40,3 @@ function generateURL(id) {
 
   return 'https://www.youtube.com/embed/' + id + query;
 }
-
-findVideos();

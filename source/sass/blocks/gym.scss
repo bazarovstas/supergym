@@ -124,8 +124,23 @@
 
   width: 364px;
   height: 228px;
+
+  @media (max-width: 1199px) {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+
+    width: 266px;
+    height: 167px;
+    transform: translate(-50%, 50%);
+  }
+
+  @media (max-width: 767px) {
+    position: static;
+
+    width: 100%;
+    // height: 167px;
+    transform: none;
+  }
 }
 
-// .gym__video {
-
-// }

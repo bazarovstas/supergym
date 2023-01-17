@@ -2115,15 +2115,20 @@ button,
   border: none;
 }
 
+.video__image {
+  width: 100%;
+}
+
 .video__button {
   position: absolute;
   top: 50px;
   left: 50%;
+  display: none;
+  width: 72px;
+  height: 72px;
   -webkit-transform: translate(-50%, 50%);
   -ms-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
-  width: 72px;
-  height: 72px;
   background: -o-linear-gradient(45.11deg, #003d85 25.38%, #b80027 74.89%);
   background: linear-gradient(44.89deg, #003d85 25.38%, #b80027 74.89%);
   border-radius: 50%;
@@ -2323,6 +2328,17 @@ button,
     min-width: 678px;
     min-height: 345px;
     margin: 0 auto;
+  }
+
+  .gym__video-wrapper {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 266px;
+    height: 167px;
+    -webkit-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
   }
 
   .promo__container {
@@ -2616,6 +2632,14 @@ button,
     line-height: 11.72px;
     border: 2px solid #ffffff;
   }
+
+  .video__button {
+    width: 52px;
+    height: 52px;
+    -webkit-transform: translate(-50%, 25%);
+    -ms-transform: translate(-50%, 25%);
+    transform: translate(-50%, 25%);
+  }
 }
 
 @media (max-width: 767px) {
@@ -2748,6 +2772,14 @@ button,
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+
+  .gym__video-wrapper {
+    position: static;
+    width: 100%;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
 
   .promo {
@@ -3033,6 +3065,13 @@ button,
 
   .btn {
     width: 100%;
+  }
+
+  .video__button {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 

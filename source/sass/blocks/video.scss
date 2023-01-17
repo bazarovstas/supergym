@@ -15,18 +15,34 @@
   border: none;
 }
 
+.video__image {
+  width: 100%;
+}
+
 .video__button {
   position: absolute;
   top: 50px;
   left: 50%;
-  transform: translate(-50%, 50%);
+  display: none;
 
   width: 72px;
   height: 72px;
+  transform: translate(-50%, 50%);
 
   background: $gradient-red-to-blue-button;
   border-radius: 50%;
   border: none;
+
+  @media (max-width: 1199px) {
+    width: 52px;
+    height: 52px;
+    transform: translate(-50%, 25%);
+  }
+
+  @media (max-width: 767px) {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .video__button::before {

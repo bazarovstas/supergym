@@ -14,6 +14,10 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+
+  @media (max-width: 767px) {
+    max-width: 100%;
+  }
 }
 
 .tabs_button {
@@ -31,6 +35,11 @@
   padding: 0;
 
   list-style: none;
+
+  @media (max-width: 1199px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
 }
 
 .tabs__item {
@@ -44,6 +53,16 @@
 
 
   background-color: $color-default-white;
+
+  @media (max-width: 1199px) {
+    justify-self: center;
+
+    max-width: 442px;
+  }
+
+  @media (max-width: 767px) {
+    max-width: 100%;
+  }
 }
 
 .tabs__description {

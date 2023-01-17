@@ -2458,6 +2458,18 @@ button,
     transform: translate(-50%, 50%);
   }
 
+  .tabs__list {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .tabs__item {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    max-width: 442px;
+  }
+
   .promo__container {
     width: 43%;
     padding: 51px 45px;
@@ -2897,6 +2909,14 @@ button,
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+  }
+
+  .tabs__nav {
+    max-width: 100%;
+  }
+
+  .tabs__item {
+    max-width: 100%;
   }
 
   .promo {

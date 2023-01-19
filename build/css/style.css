@@ -1407,13 +1407,13 @@ button,
 .coaches__button {
   position: absolute;
   top: 50%;
-  left: 2%;
+  right: calc(50% + 620px);
   background-color: transparent;
   border: none;
 }
 
 .coaches__button--right {
-  left: 96%;
+  left: calc(50% + 620px);
 }
 
 .coaches__icon {

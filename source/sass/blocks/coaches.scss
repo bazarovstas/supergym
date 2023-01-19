@@ -48,7 +48,7 @@
 .coaches__button {
   position: absolute;
   top: 50%;
-  left: 2%;
+  right: calc(50% + 620px);
 
   background-color: transparent;
   border: none;
@@ -58,7 +58,7 @@
   }
 
   &--right {
-    left: 96%;
+    left: calc(50% + 620px);
 
     @media (max-width: 767px) {
       padding: 0;

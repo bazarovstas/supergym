@@ -43,16 +43,23 @@
 }
 
 .tabs__item {
+  position: relative;
   display: flex;
   flex-direction: column;
 
   max-width: 360px;
   min-height: 448px;
-  // margin: 0 auto;
-  padding: 68px 70px;
+  padding: 68px 67px;
 
-
+  border: 7px solid transparent;
   background-color: $color-default-white;
+
+  transition: 0.5s;
+
+  &:hover {
+    border-image: $gradient-red-to-blue-tabs-border;
+    border-image-slice: 1;
+  }
 
   @media (max-width: 1199px) {
     justify-self: center;
@@ -106,7 +113,3 @@
   line-height: 66px;
   color: $color-default-black;
 }
-
-// .tabs__link {
-
-// }

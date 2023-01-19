@@ -19,7 +19,7 @@
   transition: opacity $trans-default;
 
   @include hover-focus {
-    opacity: 0.8;
+    opacity: 1;
   }
 
   @media (max-width: 1199px) {
@@ -69,5 +69,12 @@
     color: $color-default-black;
 
     border: 2px solid $color-default-black;
+
+    &:hover {
+      color: $color-default-white;
+
+      background: $gradient-red-to-blue-button-tabs;
+      transition: $trans-default;
+    }
   }
 }

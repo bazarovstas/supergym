@@ -1222,6 +1222,7 @@ button,
 }
 
 .tabs__item {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1231,8 +1232,18 @@ button,
   flex-direction: column;
   max-width: 360px;
   min-height: 448px;
-  padding: 68px 70px;
+  padding: 68px 67px;
+  border: 7px solid transparent;
   background-color: #ffffff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.tabs__item:hover {
+  -o-border-image: -o-linear-gradient(301.18deg, #D10A42 0.85%, #00359F 100%);
+  border-image: linear-gradient(148.82deg, #D10A42 0.85%, #00359F 100%);
+  border-image-slice: 1;
 }
 
 .tabs__description {
@@ -2188,7 +2199,7 @@ button,
 }
 
 .btn.focus-visible:focus {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .btn--secondary {
@@ -2214,6 +2225,16 @@ button,
   line-height: 14.06px;
   color: #102654;
   border: 2px solid #102654;
+}
+
+.btn--tabs:hover {
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, right top, from(#d10a42), to(#0041ca));
+  background: -o-linear-gradient(left, #d10a42 0%, #0041ca 100%);
+  background: linear-gradient(90deg, #d10a42 0%, #0041ca 100%);
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .video {
@@ -3234,6 +3255,6 @@ button,
 
 @media (hover: hover) {
   .btn:hover:not(.focus-visible) {
-    opacity: 0.8;
+    opacity: 1;
   }
 }

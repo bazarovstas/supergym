@@ -120,10 +120,12 @@
 .gym__video-wrapper {
   position: absolute;
   top: 408px;
-  left: 40%;
+  left: 50%;
 
   width: 364px;
   height: 228px;
+
+  translate: -140px;
 
   @media (max-width: 1199px) {
     position: absolute;

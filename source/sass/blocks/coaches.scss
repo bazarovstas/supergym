@@ -53,14 +53,28 @@
   background-color: transparent;
   border: none;
 
+  @media (max-width: 1199px) {
+    right: auto;
+    left: calc(50% - 330px);
+  }
+
   @media (max-width: 767px) {
+    left: 2%;
+
     padding: 0;
   }
 
   &--right {
     left: calc(50% + 620px);
 
+    @media (max-width: 1199px) {
+      left: calc(50% + 330px);
+    }
+
     @media (max-width: 767px) {
+      left: auto;
+      right: 2%;
+
       padding: 0;
     }
   }

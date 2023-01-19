@@ -1160,9 +1160,10 @@ button,
 .gym__video-wrapper {
   position: absolute;
   top: 408px;
-  left: 40%;
+  left: 50%;
   width: 364px;
   height: 228px;
+  translate: -140px;
 }
 
 .membership {
@@ -2537,6 +2538,15 @@ button,
     max-width: 566px;
   }
 
+  .coaches__button {
+    right: auto;
+    left: calc(50% - 330px);
+  }
+
+  .coaches__button--right {
+    left: calc(50% + 330px);
+  }
+
   .advantages {
     padding: 100px var(--side-offset, 20px);
   }
@@ -2941,10 +2951,13 @@ button,
   }
 
   .coaches__button {
+    left: 2%;
     padding: 0;
   }
 
   .coaches__button--right {
+    left: auto;
+    right: 2%;
     padding: 0;
   }
 

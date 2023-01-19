@@ -1,10 +1,10 @@
 import Swiper, {Navigation, A11y} from 'swiper';
 
-const coaches = document.querySelector('.coaches--no-js');
-const reviews = document.querySelector('.reviews--no-js');
+const coaches = document.querySelector('.coaches__no-js');
+const reviews = document.querySelector('.reviews__no-js');
 
-coaches.classList.remove('coaches--no-js');
-reviews.classList.remove('reviews--no-js');
+coaches.classList.remove('coaches__no-js');
+reviews.classList.remove('reviews__no-js');
 
 export const initSwiper = () => {
   const coachesSwiper = new Swiper('.coaches__container', {

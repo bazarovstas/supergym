@@ -1204,7 +1204,7 @@ button,
   line-height: 24px;
 }
 
-.tabs_button {
+.tabs__button {
   background-color: transparent;
   border: none;
 }

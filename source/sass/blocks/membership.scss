@@ -21,7 +21,6 @@
 
 
   @include adaptive-bg("../img/backgrounds/membership-weights-desktop");
-
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: right 0;
@@ -33,7 +32,7 @@
     width: 347px;
     height: 444px;
 
-    @include adaptive-bg("../img/backgrounds/membership-weights-desktop");
+    @include adaptive-bg("../img/backgrounds/membership-weights-tablet");
   }
 
   @media (max-width: $vp-767) {

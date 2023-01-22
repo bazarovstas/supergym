@@ -2530,12 +2530,12 @@ button,
     bottom: -90px;
     width: 347px;
     height: 444px;
-    background-image: -webkit-image-set(url("../img/backgrounds/membership-weights-desktop@2x.webp") 2x, url("../img/backgrounds/membership-weights-desktop.webp") 1x);
-    background-image: image-set(url("../img/backgrounds/membership-weights-desktop@2x.webp") 2x, url("../img/backgrounds/membership-weights-desktop.webp") 1x);
+    background-image: -webkit-image-set(url("../img/backgrounds/membership-weights-tablet@2x.webp") 2x, url("../img/backgrounds/membership-weights-tablet.webp") 1x);
+    background-image: image-set(url("../img/backgrounds/membership-weights-tablet@2x.webp") 2x, url("../img/backgrounds/membership-weights-tablet.webp") 1x);
   }
 
   .membership__bg-image--no-webp {
-    background-image: url("../img/backgrounds/membership-weights-desktop.jpg");
+    background-image: url("../img/backgrounds/membership-weights-tablet.jpg");
   }
 
   .tabs__list {
@@ -2862,7 +2862,7 @@ button,
 
 @media (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1199px) and (-o-min-device-pixel-ratio: 3/2), (max-width: 1199px) and (min-resolution: 144dpi), (max-width: 1199px) and (min-resolution: 1.5dppx) {
   .membership__bg-image--no-webp {
-    background-image: url("../img/backgrounds/membership-weights-desktop@2x.jpg");
+    background-image: url("../img/backgrounds/membership-weights-tablet@2x.jpg");
   }
 }
 
@@ -3073,7 +3073,7 @@ button,
     -ms-grid-rows: auto;
     grid-template-rows: auto;
     grid-auto-rows: auto;
-    min-height: 100%;
+    min-height: 1090px;
   }
 
   .advantages__item {

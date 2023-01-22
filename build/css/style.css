@@ -1035,6 +1035,10 @@ button,
   margin-left: 64px;
 }
 
+.main__image {
+  background-color: #1c3374;
+}
+
 .heading {
   margin: 0;
   padding: 0;
@@ -1155,6 +1159,10 @@ button,
 .gym__image-wrapper {
   min-width: 660px;
   min-height: 401px;
+}
+
+.gym__image {
+  background-color: #e8e8e8;
 }
 
 .gym__video-wrapper {
@@ -1421,6 +1429,7 @@ button,
 
 .promo__image {
   min-width: 100%;
+  background-color: #1c3374;
 }
 
 .coaches {
@@ -1519,6 +1528,7 @@ button,
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  background-color: #e8e8e8;
 }
 
 .coaches__preview-info {
@@ -1877,6 +1887,7 @@ button,
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  background-color: #2e35ac;
 }
 
 .promotion__layout-wrapper {

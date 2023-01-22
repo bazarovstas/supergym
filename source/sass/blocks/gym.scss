@@ -110,6 +110,8 @@
 }
 
 .gym__image {
+  background-color: $color-whisper;
+
   @media (max-width: 767px) {
     width: 100%;
 

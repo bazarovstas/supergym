@@ -50,8 +50,13 @@
   top: 50%;
   right: calc(50% + 620px);
 
+  width: 16px;
+  height: 32px;
+  padding: 7px 1px;
+
   background-color: transparent;
   border: none;
+  cursor: pointer;
 
   @media (max-width: 1199px) {
     right: auto;

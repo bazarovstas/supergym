@@ -118,6 +118,7 @@
   text-transform: uppercase;
 
   border-bottom: 2px solid $color-default-white;
+  transition: $trans-default;
 
   &--secondary {
     font-size: 12px;
@@ -126,6 +127,19 @@
 
     border-bottom: 2px solid $color-resolution-blue;
   }
+
+  &:hover {
+    color: $color-default-black;
+
+    border-bottom: 2px solid $color-default-black;
+  }
+}
+
+.promotion__link--secondary:hover {
+  color: $color-default-white;
+
+  background-color: $color-chambray;
+  border-bottom: 2px solid $color-chambray;
 }
 
 .promotion__image {

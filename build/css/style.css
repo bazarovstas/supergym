@@ -1240,6 +1240,7 @@ button,
 }
 
 .tabs__nav {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1250,16 +1251,40 @@ button,
   -moz-column-gap: 35px;
   column-gap: 35px;
   max-width: 360px;
-  margin: 0 auto 39px;
+  margin: 0 auto 50px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 }
 
+.tabs__nav::after {
+  content: "";
+  position: absolute;
+  top: 37px;
+  left: 10px;
+  width: 341px;
+  height: 1px;
+  background-color: rgba(120, 120, 120, 0.2);
+}
+
 .tabs__button {
+  padding-bottom: 12px;
   background-color: transparent;
   border: none;
+  border-bottom: 2px solid transparent;
   cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.tabs__button--is-active {
+  border-bottom: 2px solid #d10a42;
+}
+
+.tabs__button:hover {
+  color: #2e35ac;
+  border-bottom: 2px solid #d10a42;
 }
 
 .tabs__list {
@@ -1494,8 +1519,12 @@ button,
   position: absolute;
   top: 50%;
   right: calc(50% + 620px);
+  width: 16px;
+  height: 32px;
+  padding: 7px 1px;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .coaches__button--right {
@@ -1914,6 +1943,9 @@ button,
   color: #ffffff;
   text-transform: uppercase;
   border-bottom: 2px solid #ffffff;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .promotion__link--secondary {
@@ -1921,6 +1953,17 @@ button,
   line-height: 14.06px;
   color: #1c3374;
   border-bottom: 2px solid #1c3374;
+}
+
+.promotion__link:hover {
+  color: #102654;
+  border-bottom: 2px solid #102654;
+}
+
+.promotion__link--secondary:hover {
+  color: #ffffff;
+  background-color: #495a7d;
+  border-bottom: 2px solid #495a7d;
 }
 
 .promotion__image {
@@ -1989,8 +2032,12 @@ button,
   position: absolute;
   top: 48%;
   left: 0;
+  width: 16px;
+  height: 32px;
+  padding: 7px 1px;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .reviews__button--right {
@@ -2024,6 +2071,10 @@ button,
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1/3;
+}
+
+.reviews__image {
+  background-color: transparent;
 }
 
 .reviews__review p,
@@ -2298,7 +2349,8 @@ button,
 }
 
 .btn.focus-visible:focus {
-  opacity: 1;
+  color: #102654;
+  background-color: #ffffff;
 }
 
 .btn--secondary {
@@ -2326,7 +2378,7 @@ button,
   border: 2px solid #102654;
 }
 
-.btn--tabs:hover {
+.btn--tabs.focus-visible:focus {
   color: #ffffff;
   border: 2px solid transparent;
   background: -webkit-gradient(linear, left top, right top, from(#d10a42), to(#0041ca));
@@ -2368,11 +2420,22 @@ button,
   -webkit-transform: translate(-50%, 50%);
   -ms-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
   background: -o-linear-gradient(45.11deg, #003d85 25.38%, #b80027 74.89%);
   background: linear-gradient(44.89deg, #003d85 25.38%, #b80027 74.89%);
   border-radius: 50%;
   border: none;
   cursor: pointer;
+}
+
+.video__button:hover {
+  opacity: 0.8;
+  scale: 80%;
+  -webkit-transform: translate(-50%, 65%);
+  -ms-transform: translate(-50%, 65%);
+  transform: translate(-50%, 65%);
 }
 
 .video__button::before {
@@ -3392,6 +3455,18 @@ button,
 
 @media (hover: hover) {
   .btn:hover:not(.focus-visible) {
-    opacity: 1;
+    color: #102654;
+    background-color: #ffffff;
+  }
+
+  .btn--tabs:hover:not(.focus-visible) {
+    color: #ffffff;
+    border: 2px solid transparent;
+    background: -webkit-gradient(linear, left top, right top, from(#d10a42), to(#0041ca));
+    background: -o-linear-gradient(left, #d10a42 0%, #0041ca 100%);
+    background: linear-gradient(90deg, #d10a42 0%, #0041ca 100%);
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
   }
 }

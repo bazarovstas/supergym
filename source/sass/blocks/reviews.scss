@@ -52,8 +52,13 @@
   top: 48%;
   left: 0;
 
+  width: 16px;
+  height: 32px;
+  padding: 7px 1px;
+
   background-color: transparent;
   border: none;
+  cursor: pointer;
 
   @media (max-width: 767px) {
     padding: 0;
@@ -101,6 +106,10 @@
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
+}
+
+.reviews__image {
+  background-color: transparent;
 }
 
 .reviews__review p,

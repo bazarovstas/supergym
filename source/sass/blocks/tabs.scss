@@ -4,12 +4,13 @@
 }
 
 .tabs__nav {
+  position: relative;
   display: flex;
   justify-content: space-between;
   column-gap: 35px;
 
   max-width: 360px;
-  margin: 0 auto 39px;
+  margin: 0 auto 50px;
 
   font-weight: 400;
   font-size: 20px;
@@ -18,13 +19,39 @@
   @media (max-width: 767px) {
     max-width: 100%;
   }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 37px;
+    left: 10px;
+
+    width: 341px;
+    height: 1px;
+
+    background-color: $color-transparent-grey-0-20;
+  }
 }
 
 .tabs__button {
+  padding-bottom: 12px;
+
   background-color: transparent;
   border: none;
-
+  border-bottom: 2px solid transparent;
   cursor: pointer;
+
+  transition: 0.2s ease-in-out;
+
+  &--is-active {
+    border-bottom: 2px solid $color-crimson;
+  }
+
+  &:hover {
+    color: $color-persian-blue;
+
+    border-bottom: 2px solid $color-crimson;
+  }
 }
 
 .tabs__list {

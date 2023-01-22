@@ -28,12 +28,20 @@
   width: 72px;
   height: 72px;
   transform: translate(-50%, 50%);
+  transition: $trans-default;
 
   background: $gradient-red-to-blue-button;
   border-radius: 50%;
   border: none;
 
   cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+
+    scale: 80%;
+    transform: translate(-50%, 65%);
+  }
 
   @media (max-width: 1199px) {
     width: 52px;

@@ -23,7 +23,7 @@
   &::after {
     content: "";
     position: absolute;
-    top: 37px;
+    top: 47.5px;
     left: 10px;
 
     width: 341px;
@@ -34,7 +34,7 @@
 }
 
 .tabs__button {
-  padding-bottom: 12px;
+  padding: 12px 0;
 
   color: $color-transparent-black-0-50;
 

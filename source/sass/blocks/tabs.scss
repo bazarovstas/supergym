@@ -36,6 +36,8 @@
 .tabs__button {
   padding-bottom: 12px;
 
+  color: $color-transparent-black-0-50;
+
   background-color: transparent;
   border: none;
   border-bottom: 2px solid transparent;
@@ -45,6 +47,7 @@
   user-select: none;
 
   &--is-active {
+    color: $color-default-black;
     border-bottom: 2px solid $color-crimson;
   }
 

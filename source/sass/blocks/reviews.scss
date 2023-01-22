@@ -76,8 +76,13 @@
   }
 }
 
+.reviews__button:hover .reviews__icon {
+  stroke: $color-black-russian;
+}
+
 .reviews__icon {
   stroke: $color-dark-gray;
+  transition: 0.2s ease-in-out;
 
   &--right {
     rotate: 180deg;

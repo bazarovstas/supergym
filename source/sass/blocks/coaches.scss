@@ -85,8 +85,13 @@
   }
 }
 
+.coaches__button:hover .coaches__icon {
+  stroke: $color-black-russian;
+}
+
 .coaches__icon {
   stroke: $color-dark-gray;
+  transition: 0.2s ease-in-out;
 
   &--right {
     rotate: 180deg;

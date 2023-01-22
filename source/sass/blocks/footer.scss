@@ -84,4 +84,8 @@
   font-size: 14px;
   line-height: 16.4px;
   color: $color-default-white;
+
+  &:hover {
+    color: $color-spindle;
+  }
 }

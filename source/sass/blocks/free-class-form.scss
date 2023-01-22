@@ -41,6 +41,15 @@
   }
 }
 
+.free-class-form__name:hover input,
+.free-class-form__phone:hover input {
+  &::placeholder {
+    color: $color-dark-gray;
+
+    transition: $trans-default;
+  }
+}
+
 .free-class-form__button {
   grid-column: 1 / 3;
 

@@ -48,6 +48,8 @@
   font-size: 18px;
   line-height: 27px;
 
+  cursor: default;
+
   @media (max-width: 1199px) {
     margin: 0 0 50px 0;
 
@@ -67,6 +69,8 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
+
+  cursor: default;
 
   @media (max-width: 1199px) {
     max-width: 502px;
@@ -137,7 +141,9 @@
 
     width: 266px;
     height: 167px;
+
     transform: translate(-50%, 50%);
+    translate: 0;
   }
 
   @media (max-width: 767px) {
@@ -147,6 +153,5 @@
     width: 100%;
 
     transform: none;
-    translate: 0;
   }
 }

@@ -180,6 +180,8 @@
   font-size: 14px;
   line-height: 21px;
   color: $color-default-white;
+
+  cursor: default;
 }
 
 .coaches__preview:hover,
@@ -196,4 +198,6 @@
 .coaches__preview:focus-within .coaches__preview-info {
   opacity: 1;
   transform: none;
+
+  cursor: pointer;
 }

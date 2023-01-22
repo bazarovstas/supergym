@@ -95,6 +95,8 @@
   line-height: 27px;
   color: $color-default-white;
 
+  cursor: default;
+
   @media (max-width: 1199px) {
     font-size: 12px;
     line-height: 18px;
@@ -138,6 +140,8 @@
   font-size: 18px;
   line-height: 27px;
   color: $color-default-white;
+
+  cursor: default;
 
   @media (max-width: 1199px) {
     font-size: 12px;

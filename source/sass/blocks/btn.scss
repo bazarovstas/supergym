@@ -73,6 +73,7 @@
     &:hover {
       color: $color-default-white;
 
+      border: 2px solid transparent;
       background: $gradient-red-to-blue-button-tabs;
       transition: $trans-default;
     }

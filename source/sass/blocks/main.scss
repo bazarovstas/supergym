@@ -75,6 +75,10 @@
   }
 }
 
+.main__item {
+  cursor: default;
+}
+
 .main__container {
   display: flex;
   flex-direction: column;
@@ -106,6 +110,8 @@
   color: $color-default-white;
   text-transform: uppercase;
   text-align: right;
+
+  cursor: default;
 
   @media (max-width: 1199px) {
     margin: 0 0 10px 0;

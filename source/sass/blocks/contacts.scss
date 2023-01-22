@@ -81,6 +81,10 @@
   }
 }
 
+.contacts-layout-wrapper * {
+  cursor: default;
+}
+
 .contacts-list dt {
   font-weight: 700;
   font-size: 16px;

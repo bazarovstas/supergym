@@ -22,8 +22,9 @@
 
 .tabs__button {
   background-color: transparent;
-
   border: none;
+
+  cursor: pointer;
 }
 
 .tabs__list {
@@ -80,6 +81,8 @@
   font-size: 26px;
   line-height: 28.6px;
   text-align: center;
+
+  cursor: default;
 }
 
 .tabs__term {
@@ -89,6 +92,8 @@
   font-size: 16px;
   line-height: 22px;
   text-align: center;
+
+  cursor: default;
 }
 
 .tabs__price {
@@ -104,6 +109,8 @@
   font-size: 60px;
   line-height: 66px;
   color: $color-egyptian-blue;
+
+  cursor: default;
 
   &::before {
     content: attr(data-value);

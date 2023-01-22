@@ -206,6 +206,8 @@
   background-image: $gradient-red-to-blue-number;
   background-clip: text;
 
+  cursor: default;
+
   @media (max-width: 1199px) {
     font-size: 58px;
     line-height: 49px;
@@ -223,6 +225,8 @@
   font-size: 14px;
   line-height: 21px;
   color: $color-persian-blue;
+
+  cursor: default;
 
   &--additional {
     font-weight: 700;
@@ -245,6 +249,8 @@
   line-height: 24px;
   color: $color-default-white;
   text-align: center;
+
+  cursor: default;
 
   @media (max-width: 1199px) {
     max-width: 200px;
@@ -274,6 +280,8 @@
   line-height: 33px;
   color: $color-default-black;
 
+  cursor: default;
+
   @media (max-width: 1199px) {
     margin-bottom: 5px;
 
@@ -289,4 +297,6 @@
   font-size: 16px;
   line-height: 22.4px;
   color: $color-default-black;
+
+  cursor: default;
 }

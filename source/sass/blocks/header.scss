@@ -18,6 +18,10 @@
   }
 }
 
+.header__logo {
+  cursor: default;
+}
+
 .header__logo-title {
   font-family: $ff-alumni;
   font-weight: 600;
@@ -46,6 +50,8 @@
   letter-spacing: 0.03em;
   color: $color-default-white;
 
+  transition: $trans-default;
+
   @media (max-width: 1199px) {
     font-weight: 700;
     font-size: 24px;
@@ -57,5 +63,9 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+  }
+
+  &:hover {
+    color: $color-black-russian;
   }
 }

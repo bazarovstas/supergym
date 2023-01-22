@@ -16,6 +16,8 @@
 }
 
 .footer__logo {
+  cursor: default;
+
   @media (max-width: 767px) {
     position: absolute;
     top: 50px;

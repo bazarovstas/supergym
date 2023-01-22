@@ -2,18 +2,19 @@
   position: relative;
   grid-column: 1 / 3;
 
-  background: linear-gradient(0deg, transparent 5%, $color-ghost-white 5%);
-  // background: linear-gradient(0, $color-ghost-white, 80% transparent);
-}
-
-.membership__wrapper {
   padding: 120px var(--side-offset, 20px);
+
+  background-color: $color-ghost-white;
+
+  @media (max-width: $vp-1199) {
+    padding: 100px var(--side-offset, 20px);
+  }
 }
 
 .membership__bg-image {
   position: absolute;
   right: 0;
-  bottom: -125px;
+  bottom: -155px;
 
   width: 287px;
   height: 494px;
@@ -27,7 +28,7 @@
 
   @media (max-width: $vp-1199) {
     right: 0;
-    bottom: 0;
+    bottom: -90px;
 
     width: 347px;
     height: 444px;

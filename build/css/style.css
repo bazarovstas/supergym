@@ -1171,19 +1171,14 @@ button,
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1/3;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, transparent), color-stop(5%, #f8f9fc));
-  background: -o-linear-gradient(bottom, transparent 5%, #f8f9fc 5%);
-  background: linear-gradient(0deg, transparent 5%, #f8f9fc 5%);
-}
-
-.membership__wrapper {
   padding: 120px var(--side-offset, 20px);
+  background-color: #f8f9fc;
 }
 
 .membership__bg-image {
   position: absolute;
   right: 0;
-  bottom: -125px;
+  bottom: -155px;
   width: 287px;
   height: 494px;
   background-image: -webkit-image-set(url("../img/backgrounds/membership-weights-desktop@2x.webp") 2x, url("../img/backgrounds/membership-weights-desktop.webp") 1x);
@@ -2505,9 +2500,13 @@ button,
     transform: translate(-50%, 50%);
   }
 
+  .membership {
+    padding: 100px var(--side-offset, 20px);
+  }
+
   .membership__bg-image {
     right: 0;
-    bottom: 0;
+    bottom: -90px;
     width: 347px;
     height: 444px;
     background-image: -webkit-image-set(url("../img/backgrounds/membership-weights-desktop@2x.webp") 2x, url("../img/backgrounds/membership-weights-desktop.webp") 1x);

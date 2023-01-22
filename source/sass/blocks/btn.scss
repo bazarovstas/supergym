@@ -71,8 +71,14 @@
   }
 
   &--tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 206px;
+    min-height: 64px;
     margin-top: auto;
-    padding: 26px 44px;
+    padding: 10px 20px;
 
     font-weight: 700;
     font-size: 12px;

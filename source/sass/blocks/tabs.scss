@@ -57,7 +57,7 @@
   transition: 0.5s;
 
   &:hover {
-    border-image: $gradient-red-to-blue-tabs-border;
+    border-image: $gradient-red-to-blue-border;
     border-image-slice: 1;
   }
 

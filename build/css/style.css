@@ -1856,19 +1856,21 @@ button,
 
 .promotion__link {
   margin-top: auto;
+  padding-bottom: 2px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16.41px;
   letter-spacing: 0.05em;
   color: #ffffff;
   text-transform: uppercase;
-  text-decoration: underline;
+  border-bottom: 2px solid #ffffff;
 }
 
 .promotion__link--secondary {
   font-size: 12px;
   line-height: 14.06px;
   color: #1c3374;
+  border-bottom: 2px solid #1c3374;
 }
 
 .promotion__image {
@@ -1893,6 +1895,9 @@ button,
   grid-column: 2/3;
   padding: 35px;
   border: 7px solid #1c3374;
+  -o-border-image: -o-linear-gradient(301.18deg, #d10a42 0.85%, #00359f 100%);
+  border-image: linear-gradient(148.82deg, #d10a42 0.85%, #00359f 100%);
+  border-image-slice: 1;
 }
 
 .promotion__text-content {

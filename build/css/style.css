@@ -1276,6 +1276,10 @@ button,
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .tabs__button--is-active {
@@ -2346,6 +2350,10 @@ button,
   -webkit-transition: opacity 0.3s ease;
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .btn.focus-visible:focus {

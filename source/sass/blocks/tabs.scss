@@ -42,6 +42,7 @@
   cursor: pointer;
 
   transition: 0.2s ease-in-out;
+  user-select: none;
 
   &--is-active {
     border-bottom: 2px solid $color-crimson;

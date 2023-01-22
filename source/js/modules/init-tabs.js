@@ -12,13 +12,13 @@ export const initTabs = () => {
   buttons.forEach((button) => {
     button.addEventListener('click', () => {
 
-      buttons.forEach((item) => item.classList.remove('is-active'));
+      buttons.forEach((item) => item.classList.remove('tabs__button--is-active'));
 
       tabs.forEach((tab) => {
         tab.style.display = 'none';
 
         if (button.dataset.tabnav === tab.dataset.tab) {
-          button.classList.add('is-active');
+          button.classList.add('tabs__button--is-active');
           tab.style.display = 'block';
         }
       });

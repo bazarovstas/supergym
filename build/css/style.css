@@ -1282,6 +1282,7 @@ button,
 }
 
 .tabs__price {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1299,6 +1300,21 @@ button,
   font-size: 60px;
   line-height: 66px;
   color: #103aae;
+}
+
+.tabs__price::before {
+  content: attr(data-value);
+  position: absolute;
+  top: -37px;
+  left: -17px;
+  z-index: -1;
+  -webkit-transform: translate(0, -5%);
+  -ms-transform: translate(0, -5%);
+  transform: translate(0, -5%);
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 110px;
+  color: #e8e8e8;
 }
 
 .tabs__rouble {

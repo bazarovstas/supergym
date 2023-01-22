@@ -92,6 +92,7 @@
 }
 
 .tabs__price {
+  position: relative;
   display: flex;
   column-gap: 14px;
 
@@ -103,6 +104,21 @@
   font-size: 60px;
   line-height: 66px;
   color: $color-egyptian-blue;
+
+  &::before {
+    content: attr(data-value);
+    position: absolute;
+    top: -37px;
+    left: -17px;
+    z-index: -1;
+
+    transform: translate(0, -5%);
+
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 110px;
+    color: $color-whisper;
+  }
 }
 
 .tabs__rouble {

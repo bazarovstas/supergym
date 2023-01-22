@@ -2272,6 +2272,7 @@ button,
   background: linear-gradient(44.89deg, #003d85 25.38%, #b80027 74.89%);
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 
 .video__button::before {
@@ -2473,6 +2474,7 @@ button,
     position: absolute;
     top: 60%;
     left: 50%;
+    display: block;
     width: 266px;
     height: 167px;
     -webkit-transform: translate(-50%, 50%);
@@ -2936,10 +2938,12 @@ button,
 
   .gym__video-wrapper {
     position: static;
+    display: contents;
     width: 100%;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    translate: 0;
   }
 
   .tabs__nav {

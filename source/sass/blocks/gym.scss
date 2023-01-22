@@ -131,6 +131,7 @@
     position: absolute;
     top: 60%;
     left: 50%;
+    display: block;
 
     width: 266px;
     height: 167px;
@@ -139,9 +140,11 @@
 
   @media (max-width: 767px) {
     position: static;
+    display: contents;
 
     width: 100%;
 
     transform: none;
+    translate: 0;
   }
 }

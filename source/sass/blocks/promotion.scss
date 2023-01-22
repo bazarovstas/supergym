@@ -6,7 +6,7 @@
   row-gap: 34px;
   grid-column: 1 / 3;
 
-  padding: 140px var(--side-offset, 20px) 60px;
+  padding: 141px var(--side-offset, 20px) 60px;
 
   @media (max-width: 1199px) {
     grid-template-rows: auto;
@@ -54,7 +54,7 @@
   align-items: flex-start;
 
   width: 50%;
-  padding: 45px;
+  padding: 41px 45px 45px;
 
   background-color: $color-torch-red;
 
@@ -96,11 +96,11 @@
 }
 
 .promotion__price {
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 
   font-weight: 700;
   font-size: 70px;
-  line-height: 86px;
+  line-height: 70px;
   color: $color-default-white;
 
   cursor: default;
@@ -155,7 +155,7 @@
   align-items: flex-start;
   grid-column: 2 / 3;
 
-  padding: 35px;
+  padding: 20px 35px 28px 28px;
 
   border: 7px solid $color-resolution-blue;
   border-image: $gradient-red-to-blue-border;
@@ -178,7 +178,7 @@
 }
 
 .promotion__text-content {
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
 
   font-weight: 400;
   font-size: 16px;

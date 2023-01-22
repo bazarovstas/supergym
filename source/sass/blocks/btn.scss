@@ -43,7 +43,13 @@
     pointer-events: none;
   }
 
+  &--main {
+    margin-left: 31px;
+  }
+
   &--promo {
+    padding: 21px 54px;
+
     @media (max-width: 1199px) {
       max-width: 265px;
       padding: 14px 48px;
@@ -56,6 +62,8 @@
   }
 
   &--free-class {
+    padding: 16px 54px;
+
     font-size: 14px;
     line-height: 16.41px;
 

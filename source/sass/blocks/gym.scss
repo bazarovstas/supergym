@@ -30,7 +30,7 @@
 }
 
 .gym__title {
-  margin: 52px 0 15px 0;
+  margin: 41px 0 9px 0;
 
   @media (max-width: 1199px) {
     margin: 0 0 2px 0;
@@ -42,7 +42,7 @@
 }
 
 .gym__subtitle {
-  margin: 0 0 40px 0;
+  margin: 0 0 38px 0;
 
   font-weight: 400;
   font-size: 18px;
@@ -64,7 +64,7 @@
 }
 
 .gym__text-content {
-  margin: 0 0 15px 0;
+  margin: 0 0 8px 0;
 
   font-weight: 300;
   font-size: 16px;
@@ -114,7 +114,7 @@
 }
 
 .gym__image {
-  background-color: $color-whisper;
+  background-color: $color-dark-gray;
 
   @media (max-width: 767px) {
     width: 100%;
@@ -131,7 +131,7 @@
   width: 364px;
   height: 228px;
 
-  translate: -140px;
+  translate: -144px;
 
   @media (max-width: 1199px) {
     position: absolute;

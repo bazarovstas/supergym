@@ -3,7 +3,7 @@
   padding: 0;
 
   &--h1 {
-    margin-bottom: 55px;
+    margin-bottom: 49px;
 
     font-family: $ff-alumni;
     font-weight: 700;
@@ -32,7 +32,7 @@
     font-family: $ff-alumni;
     font-weight: 600;
     font-size: 54px;
-    line-height: 64.8px;
+    line-height: 65.8px;
     letter-spacing: 0.03em;
     text-align: center;
 
@@ -91,6 +91,8 @@
   }
 
   &--h2-free-class {
+    margin-bottom: 11px;
+
     font-family: $ff-alumni;
     font-weight: 800;
     font-size: 54px;

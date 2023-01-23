@@ -17,9 +17,11 @@
     cursor: default;
 
     @media (max-width: 1199px) {
+      margin-bottom: 40px;
+
       font-size: 72px;
       line-height: 86.4px;
-      letter-spacing: 0.02em;
+      letter-spacing: 0.05em;
       text-transform: none;
     }
 
@@ -41,6 +43,8 @@
     @media (max-width: 1199px) {
       font-size: 42px;
       line-height: 50.4px;
+
+      transform: translateX(-8px);
     }
 
     @media (max-width: 767px) {
@@ -63,6 +67,8 @@
       font-size: 42px;
       line-height: 50.4px;
       text-align: center;
+
+      transform: translateX(-8px);
     }
 
     @media (max-width: 767px) {

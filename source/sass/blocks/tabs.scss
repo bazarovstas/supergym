@@ -16,6 +16,11 @@
   font-size: 20px;
   line-height: 24px;
 
+  @media (max-width: 1199px) {
+    max-width: 0;
+    min-width: 333px;
+  }
+
   @media (max-width: 767px) {
     max-width: 100%;
   }
@@ -30,6 +35,11 @@
     height: 1px;
 
     background-color: $color-transparent-grey-0-20;
+
+    @media (max-width: 1199px) {
+      top: 53px;
+      left: -4px;
+    }
   }
 }
 
@@ -56,6 +66,14 @@
 
     border-bottom: 2px solid $color-crimson;
   }
+
+  @media (max-width: 1199px) {
+    padding: 13px 0;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
 }
 
 .tabs__list {
@@ -70,7 +88,7 @@
 
   @media (max-width: 1199px) {
     grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
+    gap: 39px;
   }
 }
 
@@ -96,7 +114,9 @@
   @media (max-width: 1199px) {
     justify-self: center;
 
-    max-width: 442px;
+    max-width: 0;
+    min-width: 442px;
+    min-height: 448px;
   }
 
   @media (max-width: 767px) {
@@ -114,6 +134,10 @@
   text-align: center;
 
   cursor: default;
+
+  @media (max-width: 1199px) {
+    padding-bottom: 10px;
+  }
 }
 
 .tabs__term {

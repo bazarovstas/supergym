@@ -20,6 +20,11 @@
 
 .header__logo {
   cursor: default;
+
+  @media (max-width: 1199px) {
+    display: flex;
+    align-self: baseline;
+  }
 }
 
 .header__logo-title {

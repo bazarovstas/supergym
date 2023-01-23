@@ -45,6 +45,10 @@
 
   &--main {
     margin-left: 31px;
+
+    @media (max-width: 1199px) {
+      margin-left: 27px;
+    }
   }
 
   &--promo {
@@ -86,6 +90,12 @@
     color: $color-default-black;
 
     border: 2px solid $color-default-black;
+
+    @media (max-width: 1199px) {
+      align-self: center;
+
+      min-width: 206px;
+    }
 
     @include hover-focus {
       color: $color-default-white;

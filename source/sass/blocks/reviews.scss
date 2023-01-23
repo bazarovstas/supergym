@@ -4,7 +4,7 @@
   padding: 57px 0 120px;
 
   @media (max-width: 1199px) {
-    padding: 50px 0 100px;
+    padding: 32px 0 100px;
   }
 
   @media (max-width: 767px) {
@@ -14,6 +14,12 @@
 
 .reviews__title {
   margin-bottom: 35px;
+
+  @media (max-width: 1199px) {
+    margin-bottom: 39px;
+
+    transform: translateX(-3px);
+  }
 }
 
 .reviews__button-wrapper {
@@ -38,6 +44,7 @@
 
   @media (max-width: 1199px) {
     max-width: 566px;
+    padding: 56px 64px 56px;
   }
 
   @media (max-width: 767px) {

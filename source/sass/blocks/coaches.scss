@@ -4,7 +4,7 @@
   padding: 66px 0 95px;
 
   @media (max-width: 1199px) {
-    padding: 60px var(--side-offset, 20px) 95px;
+    padding: 60px var(--side-offset, 20px) 101px;
   }
 }
 
@@ -22,6 +22,7 @@
     padding: 0 0 30px;
 
     text-align: center;
+    transform: translateX(-2px);
   }
 }
 
@@ -60,7 +61,7 @@
 
   @media (max-width: 1199px) {
     right: auto;
-    left: calc(50% - 330px);
+    left: calc(50% - 340px);
   }
 
   @media (max-width: 767px) {
@@ -73,7 +74,7 @@
     left: calc(50% + 620px);
 
     @media (max-width: 1199px) {
-      left: calc(50% + 330px);
+      left: calc(50% + 322px);
     }
 
     @media (max-width: 767px) {

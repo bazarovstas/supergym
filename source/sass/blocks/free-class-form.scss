@@ -7,8 +7,13 @@
   max-width: 410px;
 
   @media (max-width: 1199px) {
+    column-gap: 63px;
+    row-gap: 28px;
+
     max-width: 474px;
     margin: 0 auto;
+
+    transform: translateX(-16px);
   }
 
   @media (max-width: 767px) {
@@ -39,6 +44,10 @@
     line-height: 16.41px;
     color: $color-default-white;
   }
+
+  @media (max-width: 1199px) {
+    padding: 7px 0;
+  }
 }
 
 .free-class-form__name:hover input,
@@ -60,4 +69,8 @@
 
 .free-class-form__button button {
   width: 100%;
+
+  @media (max-width: 1199px) {
+    padding: 16px 54px;
+  }
 }

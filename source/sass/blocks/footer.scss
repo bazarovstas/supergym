@@ -7,6 +7,10 @@
 
   background-color: $color-black-russian;
 
+  @media (max-width: 1199px) {
+    min-height: 112px;
+  }
+
   @media (max-width: 767px) {
     position: relative;
     flex-direction: column;
@@ -46,6 +50,10 @@
   align-self: baseline;
 
   margin-right: 30px;
+
+  @media (max-width: 1199px) {
+    margin-right: 16px;
+  }
 
   @media (max-width: 767px) {
     width: 100%;

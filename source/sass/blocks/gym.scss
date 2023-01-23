@@ -33,7 +33,7 @@
   margin: 41px 0 9px 0;
 
   @media (max-width: 1199px) {
-    margin: 0 0 2px 0;
+    margin: 0;
   }
 
   @media (max-width: 767px) {
@@ -51,7 +51,7 @@
   cursor: default;
 
   @media (max-width: 1199px) {
-    margin: 0 0 50px 0;
+    margin: 0 0 33px 0;
 
     text-align: center;
   }
@@ -73,8 +73,8 @@
   cursor: default;
 
   @media (max-width: 1199px) {
-    max-width: 502px;
-    margin: 0 auto 50px auto;
+    max-width: 510px;
+    margin: 0 auto 44px auto;
 
     text-align: center;
 
@@ -135,7 +135,7 @@
 
   @media (max-width: 1199px) {
     position: absolute;
-    top: 60%;
+    top: 59%;
     left: 50%;
     display: block;
 

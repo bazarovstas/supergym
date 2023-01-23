@@ -10,7 +10,7 @@
     grid-column: 1 / 3;
 
     min-height: 324px;
-    padding: 70px var(--side-offset, 20px);
+    padding: 61px var(--side-offset, 20px) 64px;
   }
 
   @media (max-width: 767px) {
@@ -23,7 +23,9 @@
 
   @media (max-width: 1199px) {
     max-width: 474px;
-    margin: 0 auto 25px;
+    margin: 0 auto 28px;
+
+    transform: translateX(-16px);
   }
 
   @media (max-width: 767px) {

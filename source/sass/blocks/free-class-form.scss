@@ -18,7 +18,9 @@
 
   @media (max-width: 767px) {
     grid-template-columns: 100%;
-    gap: 35px;
+    gap: 27px;
+
+    transform: translateX(0);
   }
 }
 
@@ -64,6 +66,8 @@
 
   @media (max-width: 767px) {
     grid-column: auto;
+
+    margin-top: 11px;
   }
 }
 

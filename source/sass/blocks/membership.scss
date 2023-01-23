@@ -10,6 +10,10 @@
   @media (max-width: $vp-1199) {
     padding: 107px var(--side-offset, 20px);
   }
+
+  @media (max-width: $vp-767) {
+    padding: 69px var(--side-offset, 20px);
+  }
 }
 
 .membership__bg-image {
@@ -46,5 +50,9 @@
 
   @media (max-width: 1199px) {
     margin-bottom: 0;
+  }
+
+  @media (max-width: $vp-767) {
+    margin-bottom: 8px;
   }
 }

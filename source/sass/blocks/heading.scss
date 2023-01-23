@@ -26,7 +26,7 @@
     }
 
     @media (max-width: 767px) {
-      margin-bottom: 35px;
+      margin-bottom: 25px;
     }
   }
 
@@ -50,6 +50,8 @@
     @media (max-width: 767px) {
       font-size: 32px;
       line-height: 38.4px;
+
+      transform: translateX(-5px);
     }
   }
 
@@ -75,6 +77,8 @@
       font-size: 32px;
       line-height: 38.4px;
       text-align: left;
+
+      transform: translateX(0);
     }
   }
 

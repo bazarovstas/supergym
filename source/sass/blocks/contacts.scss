@@ -16,7 +16,7 @@
 
   @media (max-width: 767px) {
     min-height: 507px;
-    padding: 70px var(--side-offset, 20px) 35px;
+    padding: 64px var(--side-offset, 20px) 35px;
 
     border-top: none;
   }
@@ -36,6 +36,8 @@
 
   @media (max-width: 767px) {
     max-width: 100%;
+
+    transform: translateX(0);
   }
 }
 
@@ -82,6 +84,8 @@
   @media (max-width: 767px) {
     grid-template-columns: 100%;
     max-width: 100%;
+
+    transform: translateX(0);
   }
 }
 
@@ -117,6 +121,6 @@
   }
 
   @media (max-width: 767px) {
-    margin: 0 0 35px 0;
+    margin: 0 0 21px 0;
   }
 }

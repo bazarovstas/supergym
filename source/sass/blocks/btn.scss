@@ -49,6 +49,10 @@
     @media (max-width: 1199px) {
       margin-left: 27px;
     }
+
+    @media (max-width: 767px) {
+      margin-left: 0;
+    }
   }
 
   &--promo {

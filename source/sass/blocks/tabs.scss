@@ -9,7 +9,8 @@
   justify-content: space-between;
   column-gap: 35px;
 
-  max-width: 360px;
+  max-width: 365px;
+  min-width: 340px;
   margin: 0 auto 40px;
 
   font-weight: 400;
@@ -23,6 +24,8 @@
 
   @media (max-width: 767px) {
     max-width: 100%;
+    min-width: 290px;
+    margin: 0 auto 35px;
   }
 
   &::after {
@@ -39,6 +42,13 @@
     @media (max-width: 1199px) {
       top: 53px;
       left: -4px;
+    }
+
+    @media (max-width: 767px) {
+      top: 50px;
+      left: 0;
+
+      width: 290px;
     }
   }
 }
@@ -74,6 +84,11 @@
     font-size: 18px;
     line-height: 27px;
   }
+
+  @media (max-width: 767px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .tabs__list {
@@ -89,6 +104,10 @@
   @media (max-width: 1199px) {
     grid-template-columns: repeat(1, 1fr);
     gap: 39px;
+  }
+
+  @media (max-width: 767px) {
+    gap: 35px;
   }
 }
 
@@ -121,6 +140,9 @@
 
   @media (max-width: 767px) {
     max-width: 100%;
+    min-width: 100%;
+    min-height: 384px;
+    padding: 42px 67px 50px;
   }
 }
 
@@ -137,6 +159,11 @@
 
   @media (max-width: 1199px) {
     padding-bottom: 10px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 22px;
+    line-height: 24.2px;
   }
 }
 
@@ -180,6 +207,19 @@
     font-size: 100px;
     line-height: 110px;
     color: $color-transparent-grey-0-47;
+
+    @media (max-width: 767px) {
+      font-size: 80px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    margin: 0 auto;
+
+    font-size: 48px;
+    line-height: 61px;
+
+    transform: translate(4px, 100%);
   }
 }
 
@@ -190,4 +230,9 @@
   font-size: 60px;
   line-height: 66px;
   color: $color-default-black;
+
+  @media (max-width: 767px) {
+    font-size: 48px;
+    line-height: 61px;
+  }
 }

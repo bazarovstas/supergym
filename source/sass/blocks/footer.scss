@@ -14,8 +14,10 @@
   @media (max-width: 767px) {
     position: relative;
     flex-direction: column;
+    justify-content: flex-start;
 
-    padding: 50px var(--side-offset) 52px;
+    min-height: 290px;
+    padding: 42px var(--side-offset) 45px;
   }
 }
 
@@ -24,7 +26,7 @@
 
   @media (max-width: 767px) {
     position: absolute;
-    top: 50px;
+    top: 44px;
     left: 15px;
   }
 }
@@ -42,6 +44,12 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 28.8px;
+  }
+
+  @media (max-width: 767px) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 
@@ -82,7 +90,7 @@
 
 
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 33px;
   }
 }
 
@@ -95,5 +103,10 @@
 
   &:hover {
     color: $color-spindle;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 16px;
+    line-height: 18.75px;
   }
 }

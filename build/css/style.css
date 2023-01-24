@@ -900,17 +900,14 @@ button,
   padding: 30px var(--side-offset, 20px) 0;
 }
 
-.header__logo {
+.header__link {
   cursor: default;
 }
 
-.header__logo-title {
-  font-family: "Alumni Sans", "Arial", sans-serif;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 43.2px;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+.header__logo {
+  width: 119px;
+  height: 23px;
+  fill: #ffffff;
 }
 
 .header__phone-link {
@@ -2336,6 +2333,9 @@ button,
 }
 
 .footer__logo {
+  width: 86px;
+  height: 17px;
+  fill: #ffffff;
   cursor: default;
 }
 
@@ -2628,7 +2628,7 @@ button,
     padding-top: 35px;
   }
 
-  .header__logo {
+  .header__link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2636,10 +2636,9 @@ button,
     align-self: baseline;
   }
 
-  .header__logo-title {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28.8px;
+  .header__logo {
+    width: 81px;
+    height: 16px;
   }
 
   .header__phone-link {
@@ -3182,6 +3181,11 @@ button,
     min-height: 112px;
   }
 
+  .footer__logo {
+    width: 81px;
+    height: 16px;
+  }
+
   .footer__logo-title {
     font-weight: 700;
     font-size: 24px;
@@ -3245,9 +3249,9 @@ button,
     padding-top: 15px;
   }
 
-  .header__logo-title {
-    font-size: 20px;
-    line-height: 24px;
+  .header__logo {
+    width: 67px;
+    height: 13px;
   }
 
   .header__phone-link {
@@ -3829,6 +3833,8 @@ button,
     position: absolute;
     top: 44px;
     left: 15px;
+    width: 67px;
+    height: 13px;
   }
 
   .footer__logo-title {

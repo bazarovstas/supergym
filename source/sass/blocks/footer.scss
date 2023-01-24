@@ -22,12 +22,25 @@
 }
 
 .footer__logo {
+  width: 86px;
+  height: 17px;
+
+  fill: $color-default-white;
+
   cursor: default;
+
+  @media (max-width: 1199px) {
+    width: 81px;
+    height: 16px;
+  }
 
   @media (max-width: 767px) {
     position: absolute;
     top: 44px;
     left: 15px;
+
+    width: 67px;
+    height: 13px;
   }
 }
 

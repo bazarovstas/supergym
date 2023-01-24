@@ -1518,6 +1518,7 @@ button,
 
 .coaches__button-wrapper {
   position: relative;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -1529,7 +1530,7 @@ button,
 .coaches__button {
   position: absolute;
   top: 43%;
-  right: calc(50% + 620px);
+  right: 98%;
   width: 16px;
   height: 32px;
   padding: 7px 1px;
@@ -1539,7 +1540,7 @@ button,
 }
 
 .coaches__button--right {
-  left: calc(50% + 620px);
+  left: 98%;
 }
 
 .coaches__button:hover .coaches__icon {

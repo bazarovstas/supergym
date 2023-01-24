@@ -122,3 +122,12 @@
     margin: 0 0 21px 0;
   }
 }
+
+.contacts__phone-link,
+.contacts__email-link {
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    color: lighten($color-default-black, 35%);
+  }
+}

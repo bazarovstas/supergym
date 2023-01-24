@@ -39,6 +39,15 @@
 
   max-width: 1280px;
   margin: 0 auto;
+
+  @media (max-width: 1199px) {
+    padding: 0 50px;
+    max-width: 1198px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 0 25px;
+  }
 }
 
 .coaches__container {
@@ -47,11 +56,11 @@
   max-width: 1160px;
 
   @media (max-width: 1199px) {
-    // max-width: 566px;
+    max-width: 925px;
   }
 
   @media (max-width: 767px) {
-    // max-width: 226px;
+    max-width: 728px;
   }
 }
 
@@ -69,8 +78,7 @@
   cursor: pointer;
 
   @media (max-width: 1199px) {
-    right: auto;
-    left: calc(50% - 340px);
+    right: 98%;
   }
 
   @media (max-width: 767px) {
@@ -86,7 +94,7 @@
     left: 98%;
 
     @media (max-width: 1199px) {
-      left: calc(50% + 322px);
+      left: 98%;
     }
 
     @media (max-width: 767px) {

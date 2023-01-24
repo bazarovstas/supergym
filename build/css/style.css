@@ -2342,6 +2342,18 @@ button,
   color: #102654;
 }
 
+.contacts__phone-link,
+.contacts__email-link {
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.contacts__phone-link:hover,
+.contacts__email-link:hover {
+  color: #3d6fda;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2938,13 +2950,21 @@ button,
     transform: translateX(-2px);
   }
 
+  .coaches__button-wrapper {
+    padding: 0 50px;
+    max-width: 1198px;
+  }
+
+  .coaches__container {
+    max-width: 925px;
+  }
+
   .coaches__button {
-    right: auto;
-    left: calc(50% - 340px);
+    right: 98%;
   }
 
   .coaches__button--right {
-    left: calc(50% + 322px);
+    left: 98%;
   }
 
   .advantages {
@@ -3522,6 +3542,14 @@ button,
 
   .coaches__title {
     padding: 0 0 41px;
+  }
+
+  .coaches__button-wrapper {
+    padding: 0 25px;
+  }
+
+  .coaches__container {
+    max-width: 728px;
   }
 
   .coaches__button {

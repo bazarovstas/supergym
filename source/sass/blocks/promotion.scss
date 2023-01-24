@@ -126,7 +126,7 @@
 
 .promotion__link {
   margin-top: auto;
-  padding-bottom: 2px;
+  padding: 20px 0 2px 0;
 
   font-weight: 700;
   font-size: 14px;
@@ -166,6 +166,7 @@
 
 .promotion__image {
   width: 100%;
+  height: 100%;
 
   object-fit: cover;
   background-color: $color-persian-blue;
@@ -177,6 +178,7 @@
   align-items: flex-start;
   grid-column: 2 / 3;
 
+  min-height: 214px;
   padding: 26px 35px 28px 28px;
 
   border: 7px solid $color-resolution-blue;

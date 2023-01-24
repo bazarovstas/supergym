@@ -32,7 +32,7 @@
   width: 72px;
   height: 72px;
   transform: translate(-50%, 50%);
-  transition: $trans-default;
+  transition: 0.2s ease-in-out;
 
   background: $gradient-red-to-blue-button;
   border-radius: 50%;
@@ -41,10 +41,7 @@
   cursor: pointer;
 
   &:hover {
-    opacity: 0.8;
-
-    scale: 80%;
-    transform: translate(-50%, 65%);
+    opacity: 0.7;
   }
 
   @media (max-width: 1199px) {

@@ -3,7 +3,6 @@
   z-index: 2;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
 
   width: 100%;
@@ -18,7 +17,9 @@
   }
 }
 
-.header__link {
+.header__logo {
+  margin: 0 auto auto 0;
+
   cursor: default;
 
   @media (max-width: 1199px) {
@@ -27,7 +28,7 @@
   }
 }
 
-.header__logo {
+.header__logo-icon {
   width: 119px;
   height: 23px;
 
@@ -42,6 +43,14 @@
     width: 67px;
     height: 13px;
   }
+}
+
+.header__layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  max-width: 180px;
 }
 
 .header__phone-link {

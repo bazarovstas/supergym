@@ -123,15 +123,20 @@
   }
 }
 
-// .coaches__coach {
-//   aspect-ratio: 260 / 294;
-// }
+.coaches__coach {
+  aspect-ratio: 260 / 294;
+}
+
+.coaches__image-wrapper {
+  width: 100%;
+}
 
 .coaches__preview {
   position: relative;
 
-  max-height: 294px;
+  // max-height: 294px;
   width: 100%;
+  min-height: 100%;
   padding: 50px 46px 58px 55px;
 
   transition: {
@@ -140,6 +145,11 @@
     timing-function: ease-in;
   }
   overflow: hidden;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   @media (max-width: 767px) {
     max-height: 274px;
@@ -163,10 +173,6 @@
   @media (max-width: 767px) {
     transform: translateY(200px - 30px);
   }
-}
-
-.coaches__preview-image-wrapper {
-  width: 100%;
 }
 
 .coaches__preview-image {

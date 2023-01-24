@@ -57,14 +57,12 @@
     left: 50%;
 
     width: 1px;
-    height: 102px;
+    height: calc(100% - 28px);
 
     background-color: $color-light-slate-grey;
 
     @media (max-width: 1199px) {
       left: 56%;
-
-      height: 129px;
     }
 
     @media (max-width: 767px) {

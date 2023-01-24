@@ -63,7 +63,7 @@
 
 .reviews__button {
   position: absolute;
-  top: 41%;
+  top: 100px;
   left: 0;
 
   width: 16px;
@@ -75,7 +75,7 @@
   cursor: pointer;
 
   @media (max-width: 767px) {
-    top: 46%;
+    top: 153px;
 
     width: 10px;
     height: 19px;
@@ -86,7 +86,7 @@
     left: 97%;
 
     @media (max-width: 767px) {
-      top: 46%;
+      top: 153px;
       left: 97%;
 
       width: 10px;

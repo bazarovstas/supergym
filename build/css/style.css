@@ -1418,6 +1418,9 @@ button,
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   min-height: 292px;
   width: 43.1%;
   padding: 85px 78px;
@@ -2834,12 +2837,16 @@ button,
   }
 
   .promo__container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     width: 43%;
     padding: 51px 45px 48px;
   }
 
   .promo__wrapper {
     max-width: 265px;
+    min-width: 202px;
   }
 
   .promo__title {
@@ -2858,7 +2865,7 @@ button,
   }
 
   .promo__list::after {
-    top: 74px;
+    top: 65px;
     width: 56px;
   }
 
@@ -2881,6 +2888,7 @@ button,
   }
 
   .promo__text {
+    max-width: 265px;
     margin: 0 0 27px 0;
     font-size: 12px;
     line-height: 18px;
@@ -2900,10 +2908,6 @@ button,
     -webkit-transform: translateX(-2px);
     -ms-transform: translateX(-2px);
     transform: translateX(-2px);
-  }
-
-  .coaches__container {
-    max-width: 566px;
   }
 
   .coaches__button {
@@ -3457,6 +3461,26 @@ button,
     padding: 50px 44px 49px;
   }
 
+  .promo__wrapper {
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    max-width: 465px;
+    min-width: 202px;
+    width: auto;
+  }
+
+  .promo__title {
+    max-width: 465px;
+    min-width: auto;
+    width: auto;
+  }
+
+  .promo__list {
+    max-width: 160px;
+    min-width: 60px;
+  }
+
   .promo__list::after {
     top: 65px;
   }
@@ -3471,10 +3495,6 @@ button,
 
   .coaches__title {
     padding: 0 0 41px;
-  }
-
-  .coaches__container {
-    max-width: 226px;
   }
 
   .coaches__button {

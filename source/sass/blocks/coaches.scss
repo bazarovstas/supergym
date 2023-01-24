@@ -47,11 +47,11 @@
   max-width: 1160px;
 
   @media (max-width: 1199px) {
-    max-width: 566px;
+    // max-width: 566px;
   }
 
   @media (max-width: 767px) {
-    max-width: 226px;
+    // max-width: 226px;
   }
 }
 
@@ -59,7 +59,6 @@
   position: absolute;
   top: 43%;
   right: 98%;
-  // right: calc(50% + 620px);
 
   width: 16px;
   height: 32px;
@@ -85,7 +84,6 @@
 
   &--right {
     left: 98%;
-    // left: calc(50% + 620px);
 
     @media (max-width: 1199px) {
       left: calc(50% + 322px);
@@ -124,6 +122,13 @@
     height: 19px;
   }
 }
+
+// .coaches__coach {
+//   @media (max-width: 767px) {
+//     min-width: 226px;
+//     width: 70.62%;
+//   }
+// }
 
 .coaches__preview {
   position: relative;

@@ -8,38 +8,34 @@ reviews.classList.remove('reviews__no-js');
 
 export const initSwiper = () => {
   const coachesSwiper = new Swiper('.coaches__container', {
+    slidesPerView: 4,
+    spaceBetween: 300,
+    updateOnWindowResize: true,
     autoHeight: true,
     breakpoints: {
 
       320: {
-        initialSlide: 2,
         slidesPerView: 1,
-        spaceBetween: 0,
+        initialSlide: 2,
       },
 
-      768: {
-        initialSlide: 2,
+      580: {
         slidesPerView: 2,
         spaceBetween: 30,
+        initialSlide: 2,
+      },
+
+      1070: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        initialSlide: 2,
       },
 
       1200: {
-        initialSlide: 0,
         slidesPerView: 4,
         spaceBetween: 40,
+        initialSlide: 0,
       },
-
-      // 580: {
-      //   initialSlide: 2,
-      //   slidesPerView: 2,
-      //   spaceBetween: 30,
-      // },
-
-      // 1070: {
-      //   initialSlide: 2,
-      //   slidesPerView: 3,
-      //   spaceBetween: 30,
-      // },
     },
     direction: 'horizontal',
     grabCursor: true,
@@ -50,8 +46,6 @@ export const initSwiper = () => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    slidesPerView: 4,
-    spaceBetween: 40,
   });
 
   const reviewsSwiper = new Swiper('.reviews__container', {
@@ -59,7 +53,6 @@ export const initSwiper = () => {
     direction: 'horizontal',
     grabCursor: true,
     keyboard: true,
-    loop: true,
     modules: [Navigation, A11y],
     navigation: {
       nextEl: '.swiper-button-next',

@@ -45,6 +45,8 @@
   display: flex;
   justify-content: space-between;
 
+  min-width: 343px;
+
   @media (max-width: 1199px) {
     max-width: 265px;
     min-width: 202px;
@@ -171,7 +173,8 @@
 }
 
 .promo__text {
-  margin: 0 0 36px 0;
+  min-width: 343px;
+  margin: 0 0 37px 0;
 
   font-weight: 400;
   font-size: 18px;
@@ -182,10 +185,19 @@
 
   @media (max-width: 1199px) {
     max-width: 265px;
+    min-width: auto;
     margin: 0 0 27px 0;
 
     font-size: 12px;
     line-height: 18px;
+  }
+}
+
+.promo__link {
+  min-width: 343px;
+
+  @media (max-width: 1199px) {
+    min-width: auto;
   }
 }
 

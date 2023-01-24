@@ -898,7 +898,7 @@ button,
 }
 
 .header__logo {
-  margin: 0 auto auto 0;
+  margin: 9px auto auto 0;
   cursor: default;
 }
 
@@ -1441,6 +1441,7 @@ button,
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  min-width: 343px;
 }
 
 .promo__title {
@@ -1492,12 +1493,17 @@ button,
 }
 
 .promo__text {
-  margin: 0 0 36px 0;
+  min-width: 343px;
+  margin: 0 0 37px 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #ffffff;
   cursor: default;
+}
+
+.promo__link {
+  min-width: 343px;
 }
 
 .promo__image-wrapper {
@@ -1542,7 +1548,7 @@ button,
 
 .coaches__button {
   position: absolute;
-  top: 43%;
+  top: 125px;
   right: 98%;
   width: 16px;
   height: 32px;
@@ -1571,7 +1577,9 @@ button,
   rotate: 180deg;
 }
 
-.coaches__coach {
+.coaches .coaches__coach {
+  max-height: 294px;
+  height: 100%;
   aspect-ratio: 260/294;
 }
 
@@ -1581,6 +1589,7 @@ button,
 
 .coaches__preview {
   position: relative;
+  max-height: 294px;
   width: 100%;
   min-height: 100%;
   padding: 50px 46px 58px 55px;
@@ -1746,7 +1755,7 @@ button,
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   margin-left: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 16px;
   border-bottom: 1px solid rgba(209, 10, 66, 0.2);
 }
 
@@ -1761,7 +1770,7 @@ button,
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
-  padding-bottom: 10px;
+  padding-bottom: 16px;
   border-bottom: 1px solid rgba(209, 10, 66, 0.2);
 }
 
@@ -1777,17 +1786,18 @@ button,
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1/3;
-  margin-top: 3px;
-  padding: 52px 34px 80px;
+  min-height: 310px;
+  margin-top: 7px;
+  padding: 52px 34px 58px;
   background-color: #1c3374;
 }
 
@@ -1833,7 +1843,6 @@ button,
 }
 
 .advantages__item-wrapper--additional {
-  margin-bottom: 17px;
   text-align: center;
 }
 
@@ -1879,6 +1888,10 @@ button,
   color: #ffffff;
   text-align: center;
   cursor: default;
+}
+
+.advantages__item-content--additional {
+  margin-top: auto;
 }
 
 .advantages__dl {
@@ -2299,7 +2312,7 @@ button,
   text-align: left;
 }
 
-.contacts-list {
+.contacts__list {
   position: relative;
   display: -ms-grid;
   display: grid;
@@ -2313,7 +2326,7 @@ button,
   margin: 0;
 }
 
-.contacts-list::before {
+.contacts__list::before {
   content: "";
   position: absolute;
   top: 10px;
@@ -2323,18 +2336,52 @@ button,
   background-color: #74819c;
 }
 
-.contacts-layout-wrapper * {
+.contacts__layout-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.contacts__layout-wrapper--swap-one {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.contacts__layout-wrapper--swap-two {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+.contacts__layout-wrapper--swap-three {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.contacts__layout-wrapper--swap-four {
+  -webkit-box-ordinal-group: 5;
+  -ms-flex-order: 4;
+  order: 4;
+}
+
+.contacts__layout-wrapper * {
   cursor: default;
 }
 
-.contacts-list dt {
+.contacts__list dt {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   color: #102654;
 }
 
-.contacts-list dd {
+.contacts__list dd {
   margin: 0 0 20px 0;
   font-weight: 400;
   font-size: 14px;
@@ -2369,7 +2416,7 @@ button,
 }
 
 .footer__logo {
-  margin-right: 25px;
+  margin: 5px 25px 0 0;
   cursor: default;
 }
 
@@ -2401,10 +2448,10 @@ button,
 .footer__list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(12%, -webkit-max-content))[5];
-  -ms-grid-columns: (minmax(12%, max-content))[5];
-  grid-template-columns: repeat(5, minmax(12%, -webkit-max-content));
-  grid-template-columns: repeat(5, minmax(12%, max-content));
+  -ms-grid-columns: (minmax(11%, -webkit-max-content))[5];
+  -ms-grid-columns: (minmax(11%, max-content))[5];
+  grid-template-columns: repeat(5, minmax(11%, -webkit-max-content));
+  grid-template-columns: repeat(5, minmax(11%, max-content));
   -webkit-column-gap: 40px;
   -moz-column-gap: 40px;
   column-gap: 40px;
@@ -2506,6 +2553,7 @@ button,
 }
 
 .btn--promo {
+  margin-bottom: 4px;
   padding: 21px 54px;
 }
 
@@ -2929,9 +2977,14 @@ button,
 
   .promo__text {
     max-width: 265px;
+    min-width: auto;
     margin: 0 0 27px 0;
     font-size: 12px;
     line-height: 18px;
+  }
+
+  .promo__link {
+    min-width: auto;
   }
 
   .promo__image-wrapper {
@@ -2965,6 +3018,15 @@ button,
 
   .coaches__button--right {
     left: 98%;
+  }
+
+  .coaches .coaches__coach {
+    max-height: 100%;
+    height: auto;
+  }
+
+  .coaches__preview {
+    max-height: 100%;
   }
 
   .advantages {
@@ -3194,11 +3256,11 @@ button,
     transform: translateX(-14px);
   }
 
-  .contacts-list::before {
+  .contacts__list::before {
     left: 56%;
   }
 
-  .contacts-list {
+  .contacts__list {
     -webkit-column-gap: 96px;
     -moz-column-gap: 96px;
     column-gap: 96px;
@@ -3209,12 +3271,12 @@ button,
     transform: translateX(-14px);
   }
 
-  .contacts-list dt {
+  .contacts__list dt {
     font-size: 20px;
     line-height: 34px;
   }
 
-  .contacts-list dd {
+  .contacts__list dd {
     min-width: 218px;
     font-size: 18px;
     line-height: 27.42px;
@@ -3255,6 +3317,7 @@ button,
 
   .btn--promo {
     max-width: 265px;
+    margin-bottom: 0;
     padding: 14px 48px;
     font-size: 10px;
     line-height: 11.72px;
@@ -3553,7 +3616,7 @@ button,
   }
 
   .coaches__button {
-    top: 46%;
+    top: 125px;
     left: 0;
     width: 10px;
     height: 19px;
@@ -3850,11 +3913,11 @@ button,
     transform: translateX(0);
   }
 
-  .contacts-list::before {
+  .contacts__list::before {
     display: none;
   }
 
-  .contacts-list {
+  .contacts__list {
     -ms-grid-columns: 100%;
     grid-template-columns: 100%;
     max-width: 100%;
@@ -3863,7 +3926,13 @@ button,
     transform: translateX(0);
   }
 
-  .contacts-list dd {
+  .contacts__layout-wrapper {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .contacts__list dd {
     margin: 0 0 21px 0;
   }
 

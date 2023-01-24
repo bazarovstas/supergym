@@ -56,10 +56,12 @@
   }
 
   &--promo {
+    margin-bottom: 4px;
     padding: 21px 54px;
 
     @media (max-width: 1199px) {
       max-width: 265px;
+      margin-bottom: 0;
       padding: 14px 48px;
 
       font-size: 10px;

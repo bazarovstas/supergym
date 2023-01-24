@@ -22,7 +22,7 @@
 }
 
 .footer__logo {
-  margin-right: 25px;
+  margin: 5px 25px 0 0;
 
   cursor: default;
 
@@ -88,11 +88,8 @@
 }
 
 .footer__list {
-  // display: flex;
-  // flex-wrap: wrap;
-
   display: grid;
-  grid-template-columns: repeat(5, minmax(12%, max-content));
+  grid-template-columns: repeat(5, minmax(11%, max-content));
   column-gap: 40px;
   row-gap: 25px;
 

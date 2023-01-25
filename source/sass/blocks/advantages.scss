@@ -38,7 +38,7 @@
   column-gap: 59px;
 
   min-height: 307px;
-  margin: 0 60px;
+  margin: 0 68px;
   padding: 0;
 
   list-style: none;
@@ -48,7 +48,7 @@
     grid-template-columns: minmax(90px, max-content);
     grid-template-rows: repeat(3, max-content);
     column-gap: 29px;
-    row-gap: 43px;
+    row-gap: 30px;
 
     margin: 0;
   }
@@ -81,8 +81,8 @@
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 
-    margin-left: 20px;
-    padding-bottom: 16px;
+    margin-left: 15px;
+    padding-bottom: 14px;
 
     border-bottom: 1px solid $color-transparent-red-0-20;
 
@@ -91,6 +91,8 @@
 
       max-width: 301px;
       margin-left: 0;
+
+      border: none;
     }
 
     .advantages__dl {
@@ -102,7 +104,7 @@
     grid-column: 3 / 4;
     grid-row: 1 / 2;
 
-    padding-bottom: 16px;
+    padding-bottom: 14px;
 
     border-bottom: 1px solid $color-transparent-red-0-20;
 
@@ -111,6 +113,8 @@
       grid-row: 1 / 2;
 
       max-width: 315px;
+
+      border: none;
     }
 
     .advantages__dl {
@@ -127,23 +131,24 @@
 
     min-height: 310px;
     margin-top: 7px;
-    padding: 52px 34px 58px;
+    padding: 52px 34px 63px;
 
     background-color: $color-resolution-blue;
 
     @media (max-width: 1199px) {
-      min-width: 442px;
-      max-height: 239px;
-      padding: 28px 0 39px;
-
+      justify-content: space-between;
       grid-column: 2 / 4;
       grid-row: 2 / 3;
+
+      margin-top: 0;
+      min-width: 442px;
+      min-height: 239px;
+      padding: 28px 0 39px;
     }
 
     @media (max-width: 767px) {
       min-width: 100%;
       min-height: 239px;
-      max-height: 100%;
       margin: 4px 0 6px 0;
       padding: 37px 0 39px;
     }
@@ -154,7 +159,7 @@
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 
-    margin-left: 20px;
+    margin-left: 15px;
     padding-top: 10px;
 
     @media (max-width: 1199px) {
@@ -163,6 +168,7 @@
 
       max-width: 301px;
       margin-left: 0;
+      padding-top: 15px;
     }
 
     .advantages__dl {
@@ -182,6 +188,7 @@
       grid-row: 3 / 4;
 
       max-width: 315px;
+      padding-top: 15px;
     }
 
     .advantages__dl {
@@ -238,6 +245,8 @@
     font-size: 74px;
     line-height: 80px;
     color: $color-default-white;
+
+    transform: translateX(-8px);
   }
 
   @media (max-width: 767px) {

@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: max-content 1fr 1fr;
   column-gap: 40px;
-  row-gap: 34px;
+  row-gap: 33px;
   grid-column: 1 / 3;
 
   padding: 141px var(--side-offset, 20px) 60px;
@@ -30,7 +30,7 @@
   @media (max-width: 1199px) {
     margin-bottom: 12px;
 
-    transform: translateX(-4px);
+    transform: translate(-4px, 3px);
   }
 
   @media (max-width: 767px) {
@@ -114,6 +114,10 @@
   color: $color-default-white;
 
   cursor: default;
+
+  @media (max-width: 1199px) {
+    margin-bottom: 18px;
+  }
 }
 
 .promotion__subtitle {
@@ -204,7 +208,7 @@
 }
 
 .promotion__text-content {
-  margin: 7px 0 0 0;
+  margin: 10px 0 0 0;
 
   font-weight: 400;
   font-size: 16px;

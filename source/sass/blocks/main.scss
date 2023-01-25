@@ -129,6 +129,10 @@
   }
 }
 
+.main__title {
+  transform: translate(3px, 1px);
+}
+
 .main__link {
   justify-content: center;
   align-self: flex-end;

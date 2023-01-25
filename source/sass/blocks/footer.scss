@@ -8,7 +8,7 @@
   background-color: $color-black-russian;
 
   @media (max-width: 1199px) {
-    min-height: 112px;
+    min-height: 114px;
   }
 
   @media (max-width: 767px) {
@@ -22,9 +22,13 @@
 }
 
 .footer__logo {
-  margin: 5px 25px 0 0;
+  margin: 4px 25px 0 0;
 
   cursor: default;
+
+  @media (max-width: 1199px) {
+    margin: 0 25px 0 0;
+  }
 
   @media (max-width: 767px) {
     position: absolute;
@@ -80,6 +84,8 @@
 
   @media (max-width: 1199px) {
     margin-right: 16px;
+
+    transform: translate(2px, 3px);
   }
 
   @media (max-width: 767px) {

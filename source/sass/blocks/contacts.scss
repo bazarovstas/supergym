@@ -50,6 +50,8 @@
 
   margin: 0;
 
+  transform: translate(2px, 1px);
+
   &::before {
     content: "";
     position: absolute;
@@ -76,7 +78,7 @@
     max-width: 474px;
     margin: 0 auto;
 
-    transform: translateX(-14px);
+    transform: translate(-14px, 1px);
   }
 
   @media (max-width: 767px) {

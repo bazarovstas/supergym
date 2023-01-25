@@ -50,6 +50,8 @@
 
   @media (max-width: 1199px) {
     margin-bottom: 0;
+
+    transform: translateX(-7px);
   }
 
   @media (max-width: $vp-767) {

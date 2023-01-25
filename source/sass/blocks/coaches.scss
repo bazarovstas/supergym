@@ -41,7 +41,7 @@
   margin: 0 auto;
 
   @media (max-width: 1199px) {
-    padding: 0 50px;
+    padding: 0 56px;
     max-width: 1198px;
   }
 
@@ -132,14 +132,12 @@
 }
 
 .coaches .coaches__coach {
-  max-height: 294px;
   height: 100%;
 
   aspect-ratio: 260 / 294;
 
   @media (max-width: 1199px) {
-    max-height: 100%;
-    height: auto;
+    aspect-ratio: 268 / 294;
   }
 }
 

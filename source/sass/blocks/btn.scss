@@ -69,6 +69,10 @@
 
       border: 2px solid $color-default-white;
     }
+
+    @media (max-width: 767px) {
+      padding: 13px 48px;
+    }
   }
 
   &--free-class {

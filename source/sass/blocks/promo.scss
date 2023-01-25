@@ -75,6 +75,7 @@
     max-width: 465px;
     min-width: auto;
     width: auto;
+    margin: 0 13px 0 0;
   }
 }
 
@@ -103,7 +104,7 @@
     background-color: $color-default-white;
 
     @media (max-width: 1199px) {
-      top: 15px;
+      top: 17px;
       left: 0;
 
       width: 46px;
@@ -122,7 +123,7 @@
     }
 
     @media (max-width: 767px) {
-      top: 65px;
+      top: 69px;
     }
   }
 }
@@ -174,9 +175,19 @@
     }
   }
 
+  &--line-height {
+    @media (max-width: 767px) {
+      line-height: 16px;
+    }
+  }
+
   &--last {
     @media (max-width: 1199px) {
       margin-top: 4px;
+    }
+
+    @media (max-width: 767px) {
+      margin-top: 3px;
     }
   }
 }
@@ -199,6 +210,10 @@
 
     font-size: 12px;
     line-height: 18px;
+  }
+
+  @media (max-width: 767px) {
+    margin: -3px 15px 22px 0;
   }
 }
 

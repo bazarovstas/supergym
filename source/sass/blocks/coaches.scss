@@ -8,7 +8,7 @@
   }
 
   @media (max-width: 767px) {
-    padding: 23px var(--side-offset, 20px) 101px;
+    padding: 23px var(--side-offset, 20px) 70px;
   }
 }
 
@@ -31,6 +31,8 @@
 
   @media (max-width: 767px) {
     padding: 0 0 41px;
+
+    transform: translateX(-2px);
   }
 }
 
@@ -46,7 +48,7 @@
   }
 
   @media (max-width: 767px) {
-    padding: 0 25px;
+    padding: 0 32px;
   }
 }
 
@@ -139,6 +141,10 @@
   @media (max-width: 1199px) {
     aspect-ratio: 268 / 294;
   }
+
+  @media (max-width: 767px) {
+    aspect-ratio: 226 / 274;
+  }
 }
 
 .coaches__image-wrapper {
@@ -171,7 +177,7 @@
 
   @media (max-width: 767px) {
     max-height: 274px;
-    padding: 47px 33px;
+    padding: 56px 33px;
   }
 }
 

@@ -37,7 +37,9 @@
     grid-column: auto;
     grid-row: auto;
 
-    transform: translateX(-3px);
+    margin-bottom: 11px;
+
+    transform: translateX(-2px);
   }
 }
 
@@ -118,14 +120,14 @@
   @media (max-width: 1199px) {
     margin-bottom: 18px;
   }
+
+  @media (max-width: 767px) {
+    margin-bottom: 13px;
+  }
 }
 
 .promotion__subtitle {
   line-height: 24px;
-
-  @media (max-width: 767px) {
-    margin-left: 5px;
-  }
 }
 
 .promotion__link {
@@ -143,7 +145,7 @@
   transition: $trans-default;
 
   @media (max-width: 767px) {
-    padding-bottom: 1px;
+    padding-bottom: 0;
   }
 
   &--secondary {
@@ -152,6 +154,10 @@
     color: $color-resolution-blue;
 
     border-bottom: 2px solid $color-resolution-blue;
+
+    @media (max-width: 767px) {
+      margin-left: 5px;
+    }
   }
 
   &:hover {

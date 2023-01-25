@@ -144,6 +144,10 @@
     color: $color-resolution-blue;
 
     cursor: default;
+
+    @media (max-width: 767px) {
+      margin-left: 9px;
+    }
   }
 
   &--h3-coaches {

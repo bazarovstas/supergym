@@ -1897,7 +1897,7 @@ button,
 }
 
 .advantages__item-content--additional {
-  margin-top: auto;
+  margin-top: 27px;
 }
 
 .advantages__dl {
@@ -2414,15 +2414,18 @@ button,
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(100px, -webkit-max-content) 1fr 100px;
+  -ms-grid-columns: minmax(100px, max-content) 1fr 100px;
+  grid-template-columns: minmax(100px, -webkit-max-content) 1fr 100px;
+  grid-template-columns: minmax(100px, max-content) 1fr 100px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   padding: 38px var(--side-offset);
   background-color: #030a1a;
 }
@@ -2452,9 +2455,14 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-item-align: baseline;
   align-self: baseline;
-  margin-right: 30px;
+  -webkit-transform: translateX(-7px);
+  -ms-transform: translateX(-7px);
+  transform: translateX(-7px);
 }
 
 .footer__list {
@@ -2493,6 +2501,8 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 11px;
   margin: 0;
   padding: 0;
@@ -3325,7 +3335,7 @@ button,
   }
 
   .footer__logo {
-    margin: 0 25px 0 0;
+    margin: 5px 25px 0 0;
   }
 
   .footer__logo-icon {
@@ -3988,7 +3998,6 @@ button,
   }
 
   .free-class__title {
-    max-width: 100%;
     margin: 0 auto 30px;
     font-weight: 600;
     -webkit-transform: translateX(0);
@@ -4049,10 +4058,8 @@ button,
 
   .footer {
     position: relative;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
@@ -4145,6 +4152,10 @@ button,
     display: flex;
     -ms-flex-item-align: start;
     align-self: flex-start;
+  }
+
+  .social__list {
+    max-width: 285px;
   }
 
   .btn {

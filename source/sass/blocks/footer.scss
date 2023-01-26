@@ -1,7 +1,9 @@
 .footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(100px, max-content) 1fr 100px;
+  // display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
   padding: 38px var(--side-offset);
 
@@ -13,7 +15,8 @@
 
   @media (max-width: 767px) {
     position: relative;
-    flex-direction: column;
+    // flex-direction: column;
+    grid-template-columns: 1fr;
     justify-content: flex-start;
 
     min-height: 290px;
@@ -27,7 +30,7 @@
   cursor: default;
 
   @media (max-width: 1199px) {
-    margin: 0 25px 0 0;
+    margin: 5px 25px 0 0;
   }
 
   @media (max-width: 767px) {
@@ -78,9 +81,10 @@
 
 .footer__nav {
   display: flex;
+  justify-content: center;
   align-self: baseline;
 
-  margin-right: 30px;
+  transform: translateX(-7px);
 
   @media (max-width: 1199px) {
     margin-right: 16px;

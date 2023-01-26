@@ -1585,7 +1585,6 @@ button,
 }
 
 .coaches .coaches__coach {
-  height: 100%;
   aspect-ratio: 260/294;
 }
 
@@ -1595,9 +1594,8 @@ button,
 
 .coaches__preview {
   position: relative;
-  max-height: 294px;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   padding: 50px 46px 58px 55px;
   -webkit-transition-property: background-color;
   -o-transition-property: background-color;
@@ -3058,10 +3056,6 @@ button,
     aspect-ratio: 268/294;
   }
 
-  .coaches__preview {
-    max-height: 100%;
-  }
-
   .advantages {
     min-height: 755px;
     padding: 92px var(--side-offset, 20px);
@@ -3730,7 +3724,6 @@ button,
   }
 
   .coaches__preview {
-    max-height: 274px;
     padding: 56px 33px;
   }
 

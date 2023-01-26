@@ -134,8 +134,6 @@
 }
 
 .coaches .coaches__coach {
-  height: 100%;
-
   aspect-ratio: 260 / 294;
 
   @media (max-width: 1199px) {
@@ -154,9 +152,8 @@
 .coaches__preview {
   position: relative;
 
-  max-height: 294px;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   padding: 50px 46px 58px 55px;
 
   transition: {
@@ -171,12 +168,7 @@
     display: none;
   }
 
-  @media (max-width: 1199px) {
-    max-height: 100%;
-  }
-
   @media (max-width: 767px) {
-    max-height: 274px;
     padding: 56px 33px;
   }
 }
